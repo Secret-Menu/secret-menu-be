@@ -1,0 +1,28 @@
+[
+  {
+    "firstName": "Jenna",
+    "lastName": "Goldman",
+    "email": "test1@secretmenu.com",
+    "role": "foodie"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Ficht",
+    "email": "test2@secretmenu.com",
+    "role": "foodie"
+  },
+  {
+    "firstName": "Hannah",
+    "lastName": "Riley",
+    "email": "test3@secretmenu.com",
+    "role": "business",
+    "restaurant": ""
+  },
+  {
+    "firstName": "Josh",
+    "lastName": "Ford",
+    "email": "test4@secretmenu.com",
+    "role": "business",
+    "restaurant": ""
+  }
+]
