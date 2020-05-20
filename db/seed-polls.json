@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Friday Night BBQ",
+    "end": 1234567,
+    "status": "active",
+    "restaurant": "",
+    "offering1Name": "Baby Back Ribs",
+    "offering1Votes": 0,
+    "offering1ImageUrl": "https://www.simplyrecipes.com/wp-content/uploads/2019/10/IP-Baby-Back-Ribs-Lead-2.jpg",
+    "offering1Description": "Full rack of smokey baby back ribs, with an accompaniment of cornbread muffins, spinach salad, and bbq baked beans",
+    "offering2Name": "Pulled Pork Slider Sammies",
+    "offering2Votes": 0,
+    "offering2ImageUrl": "https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2016/6/10/0/CCKHWSP2H_Pulled-Pork-Sliders_s4x3.jpg.rend.hgtvcom.616.462.suffix/1465587520182.jpeg",
+    "offering2Description": "Build your own pulled pork slider sammies - comes with coleslaw and potato salad"
+  }
+]

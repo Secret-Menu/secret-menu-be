@@ -1,52 +1,52 @@
 [
   {
-    "name": "Taco Tuesday Kit",
+    "dishName": "Taco Tuesday Kit",
     "imageUrl": "https://elcocinerotlh.com/wp/wp-content/uploads/2019/10/taco-kit-2-02126-2000x1200.jpg",
     "description": "Comes with 12 corn tortillas, pollo asado, tomato, onions, cilantro, cotija cheese, and sides of rice and black beans",
-    "numberRemaining": 40,
-    "servings": 4,
+    "numRemaining": 40,
+    "servingSize": 4,
     "price": 4000,
-    "restaurantId": "",
+    "restaurant": "",
     "dietaryRestriction": "None"
   },
   {
-    "name": "Take & Bake Pizza",
+    "dishName": "Take & Bake Pizza",
     "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/12/20/0/FNK_Gluten-Free-Mushroom-Ricotta_Pizza_s4x3.jpg.rend.hgtvcom.826.620.suffix/1483737096931.jpeg",
     "description": "18 inch mushroom pizza ready to bake - just pop in the over for 15 minutes!",
-    "numberRemaining": 25,
-    "servings": 4,
+    "numRemaining": 25,
+    "servingSize": 4,
     "price": 2500,
-    "restaurantId": "",
+    "restaurant": "",
     "dietaryRestriction": "None"
   },
   {
-    "name": "Hawaiian Mixed Plate",
+    "dishName": "Hawaiian Mixed Plate",
     "imageUrl": "https://www.thepitchkc.com/content/uploads/2019/06/Hawaiian_Bros___Pitch___20190515_302.5cf04650719e1.jpg",
     "description": "Shoyu chicken and kahlua pork, white rice, mac salad, and green salad",
-    "numberRemaining": 50,
-    "servings": 2,
+    "numRemaining": 50,
+    "servingSize": 2,
     "price": 3000,
-    "restaurantId": "",
+    "restaurant": "",
     "dietaryRestriction": "None"
   },
   {
-    "name": "Margarita Kit",
+    "dishName": "Margarita Kit",
     "imageUrl": "https://media.bahamabreeze.com/en_us/images/product/ClassicMargarita.jpg",
     "description": "A pitcher of our famous secret margarita mix, 2 limes, and chili salt - just add tequila!",
-    "numberRemaining": 100,
+    "numRemaining": 100,
     "servings": 4,
     "price": 5000,
-    "restaurantId": "",
+    "restaurant": "",
     "dietaryRestriction": "None"
   },
   {
-    "name": "Sunday Brunch Box",
+    "dishName": "Sunday Brunch Box",
     "imageUrl": "https://cdn.vox-cdn.com/thumbor/K93HL7yf7pTQAMXPFb0_7GKnIDw=/0x0:1767x1413/1200x675/filters:focal(743x566:1025x848)/cdn.vox-cdn.com/uploads/chorus_image/image/66646052/Bar_King_brunch_box.0.jpg",
     "description": "1lb bag of Nossa Familia Full Cycle coffee beans, a tray of take-and-bake cinnamon rolls, half a kale and spinach quiche, bottle of bubbly and fresh-squeezed OJ!",
-    "numberRemaining": 30,
-    "servings": 4,
+    "numRemaining": 30,
+    "servingSize": 4,
     "price": 6000,
-    "restaurantId":  "",
+    "restaurant":  "",
     "dietaryRestriction": "None"
   }
 ]
