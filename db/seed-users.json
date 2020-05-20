@@ -3,26 +3,30 @@
     "firstName": "Jenna",
     "lastName": "Goldman",
     "email": "test1@secretmenu.com",
-    "role": "foodie"
+    "role": "User",
+    "password": "admin"
   },
   {
     "firstName": "Chris",
     "lastName": "Ficht",
     "email": "test2@secretmenu.com",
-    "role": "foodie"
+    "role": "User",
+    "password": "admin"
   },
   {
     "firstName": "Hannah",
     "lastName": "Riley",
     "email": "test3@secretmenu.com",
-    "role": "business",
-    "restaurant": ""
+    "role": "Restaurant",
+    "restaurant": "",
+    "password": "admin"
   },
   {
     "firstName": "Josh",
     "lastName": "Ford",
     "email": "test4@secretmenu.com",
-    "role": "business",
-    "restaurant": ""
+    "role": "Restaurant",
+    "restaurant": "",
+    "password": "admin"
   }
 ]
