@@ -15,12 +15,14 @@
     "firstName": "Hannah",
     "lastName": "Riley",
     "email": "test3@secretmenu.com",
-    "role": "business"
+    "role": "business",
+    "restaurant": ""
   },
   {
     "firstName": "Josh",
     "lastName": "Ford",
     "email": "test4@secretmenu.com",
-    "role": "business"
+    "role": "business",
+    "restaurant": ""
   }
 ]

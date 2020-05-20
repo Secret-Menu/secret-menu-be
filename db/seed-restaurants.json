@@ -1,43 +1,63 @@
 [
   {
-    "name": "Hannah's Hummus",
+    "restaurantName": "Hannah's Hummus",
     "phoneNumber": "503-555-5555",
-    "Category": "Mediterranean",
+    "category": "Mediterranean",
     "quadrant": "Southeast",
-    "address": "123 Main St, Portland, OR 97218",
+    "address": {
+      "streetAddress": "123 Main St.",
+      "city": "Portland",
+      "state": "OR", 
+      "zipcode": 97218
+    },
     "description": "Hannah's Hummus description goes here",
     "imageUrl": "https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/story/more-diet.jpg",
     "websiteUrl": "https://hannahshummus.com",
     "email": "contact@hannahshummus.com"
   },
   {
-    "name": "Chris' Bamboo Grove",
+    "restaurantName": "Chris' Bamboo Grove",
     "phoneNumber": "503-555-6666",
-    "Category": "Hawaiian",
+    "category": "Hawaiian",
     "quadrant": "Southwest",
-    "address": "456 Main St, Portland, OR 97218",
+    "address": {
+      "streetAddress": "456 Main St.",
+      "city": "Portland",
+      "state": "OR", 
+      "zipcode": 97218
+    },
     "description": "Bamboo Grove description goes here",
     "imageUrl": "https://www.hawaiimagazine.com/sites/default/files/sites/default/files/Hawaiian-food-ThinkstockPhotos-488006550.jpg",
     "websiteUrl": "https://chrisbamboogrove.com",
     "email": "chris@bamboogrove.com"
   },
   {
-    "name": "Josh's Vegan Palace",
+    "restaurantName": "Josh's Vegan Palace",
     "phoneNumber": "503-555-7777",
-    "Category": "New American",
+    "category": "New American",
     "quadrant": "Northeast",
-    "address": "789 Main St, Portland, OR 97218",
+    "address": {
+      "streetAddress": "789 Main St.",
+      "city": "Portland",
+      "state": "OR", 
+      "zipcode": 97218
+    },
     "description": "Josh's Vegan Palace description goes here",
     "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/2/2017/04/carot-falafel_charlie-richards.cropped.jpg?quality=45&resize=768,574",
     "websiteUrl": "https://joshsveganpalace.com",
     "email": "hello@joshsveganpalace.com"
   },
   {
-    "name": "Ciao Bella",
+    "restaurantName": "Ciao Bella",
     "phoneNumber": "503-555-8888",
     "Category": "Italian",
     "quadrant": "Northwest",
-    "address": "246 Second St, Portland, OR 97218",
+    "address": {
+      "streetAddress": "123 Second St.",
+      "city": "Portland",
+      "state": "OR", 
+      "zipcode": 97218
+    },
     "description": "Ciao Bella description goes here",
     "imageUrl": "https://serafinamia.com/wp-content/uploads/2018/09/10-Italian-Fun-Facts-The-Food-Fashion-and-Culture-of-Italy.jpg",
     "websiteUrl": "https://ciaobellapastapdx.com",
