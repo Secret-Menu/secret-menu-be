@@ -3,6 +3,8 @@ const app = require('../lib/app');
 require('../db/data-helpers');
 const mongoose = require('mongoose');
 
+const { getOffering, getOfferings } = require('../db/data-helpers');
+
 describe('offering routes', () => {
   it('creates an offering', () => {
     return request(app)
@@ -28,6 +30,16 @@ describe('offering routes', () => {
           dietaryRestriction: ['Vegetarian', 'Vegan']
         }
         );
+      });
+  });
+
+  it('gets an offering by id', async() => {
+    const offering = await getOffering();
+
+    return request(app)
+      .get(`/api/v1/offerings/${offering._id}`)
+      .then(res => {
+        expect(res.body).toEqual(offering);
       });
   });
 });
