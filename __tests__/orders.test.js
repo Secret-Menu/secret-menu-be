@@ -1,56 +1,49 @@
 const request = require('supertest');
 const app = require('../lib/app');
-const { getOrder, getOrders } = require('../db/data-helpers');
+const mongoose = require('mongoose');
+const { getOrder, getOrders, getRestaurant, getRestaurants, getUser, getPoll, getPolls, getOffering, getOfferings } = require('../db/data-helpers');
 
 describe('ordering routes', () => {
-  it('creates an order', () => {
+  it('creates an order', async() => {
+    const user = await getUser();
+    const restaurant = await getRestaurant();
+    const offering = await getOffering();
+
     return request(app)
       .post('/api/v1/orders')
-      .send({  
-        orderNumber: 12345,
-        user: {
-          type: mongoose.Schema.Types.ObjectId,
-          ref: 'User'
-          },
-        restaurant: {
-          type: mongoose.Schema.Types.ObjectId,
-          ref: 'Restaurant',
-          required: true
-      },
-      offering: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Offering',
-        required: true
-      },
-      quantity: {
-        type: Number,
-        required: true
-      },
-      pickUpDate: {
-        type: Date,
-        required: true
-      },
-      orderStatus: {
-        type: String,
-        enum: ['Open', 'Closed']
-      }})
+      .send({
+        orderNumber: 1,
+        user: user._id,
+        restaurant: restaurant._id,
+        offering: offering._id,
+        quantity: 1,
+        pickUpDate: new Date('2020-05-31T14:00:00Z'),
+        orderStatus: 'Open'
+      })
       .then(res => {
         expect(res.body).toEqual({
           _id: expect.any(String),
-          restaurantName: 'Hannah\'s Hummus',
-          phoneNumber: '503-555-5555',
-          category: 'Mediterranean',
-          quadrant: 'Southeast',
-          address: {
-            streetAddress: '123 Main St.',
-            city: 'Portland',
-            state: 'OR', 
-            zipcode: 97218
-          },
-          description: 'Hannah\'s Hummus description goes here',
-          imageUrl: 'https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/story/more-diet.jpg',
-          websiteUrl: 'https://hannahshummus.com',
-          email: 'contact@hannahshummus.com'
+          orderNumber: 1,
+          user: user._id,
+          restaurant: restaurant._id,
+          offering: offering._id,
+          quantity: 1,
+          pickUpDate: '2020-05-31T14:00:00.000Z',
+          orderStatus: 'Open'
         });
       });
   });
+
+  it('gets all orders for a restaurant', async() => {
+    const restaurant = await getRestaurant();
+    const orders = await getOrders({restaurant: restaurant._id});
+
+    return request(app)
+      .get(`/api/v1/orders/restaurant/${restaurant._id}`)
+      .then(res => {
+        expect(res.body).toEqual(orders);
+      });
+  });
+});
+
+
