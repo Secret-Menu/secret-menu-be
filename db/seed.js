@@ -38,6 +38,8 @@ module.exports = async() => {
       state: restaurant.address.state, 
       zipcode: restaurant.address.zipcode
     },
+    lat: restaurant.lat,
+    lng: restaurant.lng,
     description: restaurant.description,
     imageUrl: restaurant.imageUrl,
     websiteUrl: restaurant.websiteUrl,
