@@ -1,7 +1,7 @@
 const request = require('supertest');
 const mongoose = require('mongoose');
 const app = require('../lib/app');
-require('../db/data-helpers');
+const { getPoll } = require('../db/data-helpers');
 
 describe('polls routes', () => {
   it('creates a poll', () => {
@@ -39,7 +39,7 @@ describe('polls routes', () => {
         });
       });
   });
-  it('gets a poll by id', () => {
+  it('gets a poll by id', async() => {
     const poll = await getPoll();
 
     return request(app)
