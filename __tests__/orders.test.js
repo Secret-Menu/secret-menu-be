@@ -44,6 +44,39 @@ describe('ordering routes', () => {
         expect(res.body).toEqual(orders);
       });
   });
+  it('gets all orders for a user', async() => {
+    const user = await getUser();
+    const orders = await getOrders({user: user._id});
+
+    return request(app)
+      .get(`/api/v1/orders/user/${user._id}`)
+      .then(res => {
+        expect(res.body).toEqual(orders);
+      });
+  });
+  it('deletes an order by id', async() => {
+    const order = await getOrder();
+
+    return request(app)
+      .delete(`/api/v1/orders/${order._id}`)
+      .then(res => {
+        expect(res.body).toEqual(order);
+      });
+  });
+  it('updates an order by id', async() => {
+    const order = await getOrder();
+
+    return request(app)
+    .patch(`/api/v1/orders/${order._id}`)
+    .send({ quantity: 2 })
+    .then(res => {
+      expect(res.body).toEqual({
+        ...order,
+        quantity: 2
+      });
+    });
+  });
+
 });
 
 
