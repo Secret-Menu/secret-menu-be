@@ -54,7 +54,15 @@ describe('ordering routes', () => {
         expect(res.body).toEqual(orders);
       });
   });
+  it('deletes an order by id', async() => {
+    const order = await getOrder();
 
+    return request(app)
+      .delete(`/api/v1/orders/${order._id}`)
+      .then(res => {
+        expect(res.body).toEqual(order);
+      });
+  });
 });
 
 
