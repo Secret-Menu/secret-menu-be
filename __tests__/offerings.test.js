@@ -66,4 +66,14 @@ describe('offering routes', () => {
         });
       });
   });
+
+  it('deletes an offering by id', async() => {
+    const offering = await getOffering();
+    
+    return request(app)
+      .delete(`/api/v1/offerings/${offering._id}`)
+      .then(res => {
+        expect(res.body).toEqual(offering);
+      });
+  });
 });
