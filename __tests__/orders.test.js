@@ -44,6 +44,17 @@ describe('ordering routes', () => {
         expect(res.body).toEqual(orders);
       });
   });
+  it('gets all orders for a user', async() => {
+    const user = await getUser();
+    const orders = await getOrders({user: user._id});
+
+    return request(app)
+      .get(`/api/v1/orders/user/${user._id}`)
+      .then(res => {
+        expect(res.body).toEqual(orders);
+      });
+  });
+
 });
 
 
