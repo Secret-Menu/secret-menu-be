@@ -47,7 +47,7 @@ describe('polls routes', () => {
       .get('/api/v1/polls')
       .then(res => {
         expect(res.body).toEqual(polls);
-      })
+      });
   });
 
   it('gets a poll by id', async() => {
@@ -70,9 +70,9 @@ describe('polls routes', () => {
           offering2Votes: poll.offering2Votes,
           offering2ImageUrl: poll.offering2ImageUrl,
           offering2Description: poll.offering2Description
-      })
-    })
-  })
+      });
+    });
+  });
 
   it('updates a poll by id', async() => {
     const poll = await getPoll();
@@ -84,7 +84,17 @@ describe('polls routes', () => {
       expect(res.body).toEqual({
         ...poll,
         end: '2020-05-31T16:00:00.000Z'
-      })
-    })
-  })
+      });
+    });
+  });
+
+  it('deletes a poll by id', async() => {
+    const poll = await getPoll();
+
+    return request(app)
+      .delete(`/api/v1/polls/${poll._id}`)
+      .then(res => {
+        expect(res.body).toEqual(poll);
+      });
+  });
 });
