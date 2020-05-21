@@ -17,6 +17,8 @@ describe('restaurant routes', () => {
           state: 'OR', 
           zipcode: 97218
         },
+        lat: 45.3434,
+        lng: -122.2332,
         description: 'Hannah\'s Hummus description goes here',
         imageUrl: 'https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/story/more-diet.jpg',
         websiteUrl: 'https://hannahshummus.com',
@@ -35,6 +37,8 @@ describe('restaurant routes', () => {
             state: 'OR', 
             zipcode: 97218
           },
+          lat: 45.3434,
+          lng: -122.2332,
           description: 'Hannah\'s Hummus description goes here',
           imageUrl: 'https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/story/more-diet.jpg',
           websiteUrl: 'https://hannahshummus.com',
