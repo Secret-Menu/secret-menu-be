@@ -18,7 +18,7 @@
   {
     "restaurantName": "Chris' Bamboo Grove",
     "phoneNumber": "503-555-6666",
-    "category": "Hawaiian",
+    "category": "Other",
     "quadrant": "Southwest",
     "address": {
       "streetAddress": "456 Main St.",
@@ -34,7 +34,7 @@
   {
     "restaurantName": "Josh's Vegan Palace",
     "phoneNumber": "503-555-7777",
-    "category": "New American",
+    "category": "American",
     "quadrant": "Northeast",
     "address": {
       "streetAddress": "789 Main St.",
