@@ -81,5 +81,4 @@ describe('restaurant routes', () => {
         expect(res.body).toEqual(restaurant);
       });
   });
-
 });
