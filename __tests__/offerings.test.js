@@ -1,6 +1,7 @@
 const request = require('supertest');
 const app = require('../lib/app');
 require('../db/data-helpers');
+const mongoose = require('mongoose');
 
 describe('offering routes', () => {
   it('creates an offering', () => {
@@ -11,24 +12,22 @@ describe('offering routes', () => {
         imageUrl: 'www.placeTofu.com/200/200',
         description: 'yummy tofu scramble dish!',
         numRemaining: 5,
-        servingSize: 1,
+        price: 1000,
         restaurant: new mongoose.Types.ObjectId(),
-        dietaryRestriction: { 
-          tags: ['Vegetarian', 'Vegan']
-        }
+        dietaryRestriction: ['Vegetarian', 'Vegan']
       },)
       .then(res => {
         expect(res.body).toEqual({
+          _id: expect.any(String),
           dishName: 'tofu scramble',
           imageUrl: 'www.placeTofu.com/200/200',
           description: 'yummy tofu scramble dish!',
           numRemaining: 5,
-          servingSize: 1,
+          price: 1000,
           restaurant: expect.any(String),
-          dietaryRestriction: { 
-            tags: ['Vegetarian', 'Vegan']
-          }
-        });
+          dietaryRestriction: ['Vegetarian', 'Vegan']
+        }
+        );
       });
   });
 });
