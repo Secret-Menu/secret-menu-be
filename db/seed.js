@@ -4,6 +4,7 @@ const users = require('./seed-users.json');
 const restaurants = require('./seed-restaurants.json');
 
 module.exports = async() => {
+
   await User.create({
     firstName: 'Danny',
     lastName: 'Cairns',
