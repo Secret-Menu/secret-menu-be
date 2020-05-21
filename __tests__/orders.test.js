@@ -63,6 +63,20 @@ describe('ordering routes', () => {
         expect(res.body).toEqual(order);
       });
   });
+  it('updates an order by id', async() => {
+    const order = await getOrder();
+
+    return request(app)
+    .patch(`/api/v1/orders/${order._id}`)
+    .send({ quantity: 2 })
+    .then(res => {
+      expect(res.body).toEqual({
+        ...order,
+        quantity: 2
+      });
+    });
+  });
+
 });
 
 
