@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../lib/app');
-require('../db/data-helpers');
+const { getRestaurant, getRestaurants } = require('../db/data-helpers');
 
 describe('restaurant routes', () => {
   it('creates a restaurant', () => {
@@ -42,4 +42,44 @@ describe('restaurant routes', () => {
         });
       });
   });
+  it('gets a restaurant by id', async() => {
+    const restaurant = await getRestaurant();
+
+    return request(app)
+      .get(`/api/v1/restaurants/${restaurant._id}`)
+      .then(res => {
+        expect(res.body).toEqual(restaurant);
+      });
+  });
+  it('gets all restaurants', async() => {
+    const restaurants = await getRestaurants();
+
+    return request(app)
+      .get('/api/v1/restaurants')
+      .then(res => {
+        expect(res.body).toEqual(restaurants);
+      });
+  });
+  it('updates a restaurant by id', async() => {
+    const restaurant = await getRestaurant();
+    return request(app)
+      .patch(`/api/v1/restaurants/${restaurant._id}`)
+      .send({ imageUrl: 'awesomePicture' })
+      .then(res => {
+        expect(res.body).toEqual({
+          ...restaurant,
+          imageUrl: 'awesomePicture'
+        });
+      });
+  });
+  it('deletes a restaurant by id', async() => {
+    const restaurant = await getRestaurant();
+
+    return request(app)
+      .delete(`/api/v1/restaurants/${restaurant._id}`)
+      .then(res => {
+        expect(res.body).toEqual(restaurant);
+      });
+  });
+
 });
