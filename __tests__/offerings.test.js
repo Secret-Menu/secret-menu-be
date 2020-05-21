@@ -52,4 +52,18 @@ describe('offering routes', () => {
         expect(res.body).toEqual(offerings);
       });
   });
+
+  it('updates an offering by id', async() => {
+    const offering = await getOffering();
+    
+    return request(app)
+      .patch(`/api/v1/offerings/${offering._id}`)
+      .send({ price: 1333 })
+      .then(res => {
+        expect(res.body).toEqual({
+          ...offering,
+          price: 1333
+        });
+      });
+  });
 });
