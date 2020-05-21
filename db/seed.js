@@ -2,6 +2,7 @@ const chance = require('chance').Chance();
 const User = require('../lib/models/User/User');
 const Restaurant = require('../lib/models/Restaurant/Restaurant');
 const Offering = require('../lib/models/Offering/Offering');
+const Order = require('../lib/models/Order/Order');
 const user_seed = require('./seed-users.json');
 const restaurant_seed = require('./seed-restaurants.json');
 const offering_seed = require('./seed-offerings.json');
@@ -15,7 +16,7 @@ module.exports = async() => {
     password: 'spotWasHere'
   });
 
-  await User.create(user_seed.map(user => ({
+  const users = await User.create(user_seed.map(user => ({
     firstName: user.firstName,
     lastName: user.lastName,
     email: user.email,
@@ -40,7 +41,7 @@ module.exports = async() => {
     email: restaurant.email
   })));
 
-  await Offering.create(offering_seed.map(offering => ({
+  const offerings = await Offering.create(offering_seed.map(offering => ({
     dishName: offering.dishName,
     imageUrl: offering.imageUrl,
     description: offering.description,
@@ -49,5 +50,16 @@ module.exports = async() => {
     price: offering.price,
     restaurant: chance.pickone(restaurants)._id,
     dietaryRestriction: offering.dietaryRestriction
+  })));
+
+  const orderStatus = ['Open', 'Closed'];
+  await Order.create([...Array(50)].map(() => ({
+    orderNumber: chance.integer(),
+    user: chance.pickone(users)._id,
+    restaurant: chance.pickone(restaurants)._id,
+    offering: chance.pickone(offerings)._id,
+    quantity: chance.integer({ min: 0, max: 50 }),
+    pickUpDate: chance.date(),
+    orderStatus: chance.pickone(orderStatus)
   })));
 };
