@@ -39,4 +39,27 @@ describe('polls routes', () => {
         });
       });
   });
+  it('gets a poll by id', () => {
+    const poll = await getPoll();
+
+    return request(app)
+      .get(`/api/v1/polls/${poll._id}`)
+      .then(res => {
+        expect(res.body).toEqual({
+          _id: expect.any(String),
+          name: poll.name,
+          end: poll.end,
+          status: poll.status,
+          restaurant: poll.restaurant,
+          offering1Name: poll.offering1Name,
+          offering1Votes: poll.offering1Votes,
+          offering1ImageUrl: poll.offering1ImageUrl,
+          offering1Description: poll.offering1Description,
+          offering2Name: poll.offering2Name,
+          offering2Votes: poll.offering2Votes,
+          offering2ImageUrl: poll.offering2ImageUrl,
+          offering2Description: poll.offering2Description
+      })
+    })
+  })
 });
