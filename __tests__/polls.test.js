@@ -1,7 +1,7 @@
 const request = require('supertest');
 const mongoose = require('mongoose');
 const app = require('../lib/app');
-const { getPoll } = require('../db/data-helpers');
+const { getPoll, getPolls } = require('../db/data-helpers');
 
 describe('polls routes', () => {
   it('creates a poll', () => {
@@ -39,6 +39,17 @@ describe('polls routes', () => {
         });
       });
   });
+
+  it('gets all polls', async() => {
+    const polls = await getPolls();
+
+    return request(app)
+      .get('/api/v1/polls')
+      .then(res => {
+        expect(res.body).toEqual(polls);
+      })
+  });
+
   it('gets a poll by id', async() => {
     const poll = await getPoll();
 
@@ -59,6 +70,20 @@ describe('polls routes', () => {
           offering2Votes: poll.offering2Votes,
           offering2ImageUrl: poll.offering2ImageUrl,
           offering2Description: poll.offering2Description
+      })
+    })
+  })
+
+  it('updates a poll by id', async() => {
+    const poll = await getPoll();
+
+    return request(app)
+    .patch(`/api/v1/polls/${poll._id}`)
+    .send({ end: '2020-05-31T16:00:00.000Z' })
+    .then(res => {
+      expect(res.body).toEqual({
+        ...poll,
+        end: '2020-05-31T16:00:00.000Z'
       })
     })
   })
