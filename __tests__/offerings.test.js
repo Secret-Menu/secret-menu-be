@@ -42,4 +42,14 @@ describe('offering routes', () => {
         expect(res.body).toEqual(offering);
       });
   });
+
+  it('get all offerings', async() => {
+    const offerings = await getOfferings();
+
+    return request(app)
+      .get('/api/v1/offerings/')
+      .then(res => {
+        expect(res.body).toEqual(offerings);
+      });
+  });
 });
