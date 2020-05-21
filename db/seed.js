@@ -1,7 +1,10 @@
+const chance = require('chance').Chance();
 const User = require('../lib/models/User/User');
 const Restaurant = require('../lib/models/Restaurant/Restaurant');
-const users = require('./seed-users.json');
-const restaurants = require('./seed-restaurants.json');
+const Offering = require('../lib/models/Offering/Offering');
+const user_seed = require('./seed-users.json');
+const restaurant_seed = require('./seed-restaurants.json');
+const offering_seed = require('./seed-offerings.json');
 
 module.exports = async() => {
   await User.create({
@@ -12,7 +15,7 @@ module.exports = async() => {
     password: 'spotWasHere'
   });
 
-  await User.create(users.map(user => ({
+  await User.create(user_seed.map(user => ({
     firstName: user.firstName,
     lastName: user.lastName,
     email: user.email,
@@ -20,7 +23,7 @@ module.exports = async() => {
     password: user.password
   })));
 
-  await Restaurant.create(restaurants.map(restaurant => ({
+  const restaurants = await Restaurant.create(restaurant_seed.map(restaurant => ({
     restaurantName: restaurant.restaurantName,
     phoneNumber: restaurant.phoneNumber,
     category: restaurant.category,
@@ -35,5 +38,16 @@ module.exports = async() => {
     imageUrl: restaurant.imageUrl,
     websiteUrl: restaurant.websiteUrl,
     email: restaurant.email
+  })));
+
+  await Offering.create(offering_seed.map(offering => ({
+    dishName: offering.dishName,
+    imageUrl: offering.imageUrl,
+    description: offering.description,
+    numRemaining: offering.numRemaining,
+    servingSize: offering.servingSize,
+    price: offering.price,
+    restaurant: chance.pickone(restaurants)._id,
+    dietaryRestriction: offering.dietaryRestriction
   })));
 };
