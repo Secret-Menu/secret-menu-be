@@ -36,7 +36,7 @@ describe('ordering routes', () => {
 
   it('gets all orders for a restaurant', async() => {
     const restaurant = await getRestaurant();
-    const orders = await getOrders({restaurant: restaurant._id});
+    const orders = await getOrders({ restaurant: restaurant._id });
 
     return request(app)
       .get(`/api/v1/orders/restaurant/${restaurant._id}`)
@@ -46,7 +46,7 @@ describe('ordering routes', () => {
   });
   it('gets all orders for a user', async() => {
     const user = await getUser();
-    const orders = await getOrders({user: user._id});
+    const orders = await getOrders({ user: user._id });
 
     return request(app)
       .get(`/api/v1/orders/user/${user._id}`)
@@ -67,14 +67,14 @@ describe('ordering routes', () => {
     const order = await getOrder();
 
     return request(app)
-    .patch(`/api/v1/orders/${order._id}`)
-    .send({ quantity: 2 })
-    .then(res => {
-      expect(res.body).toEqual({
-        ...order,
-        quantity: 2
+      .patch(`/api/v1/orders/${order._id}`)
+      .send({ quantity: 2 })
+      .then(res => {
+        expect(res.body).toEqual({
+          ...order,
+          quantity: 2
+        });
       });
-    });
   });
 
 });

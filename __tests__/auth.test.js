@@ -41,6 +41,7 @@ describe('auth routes', () => {
           email: 'spot@dogs.com',
           role: 'User',
           favoriteRestaurants: [],
+          restaurant: []
         });
       });
   });
@@ -56,6 +57,7 @@ describe('auth routes', () => {
           email: 'spot@dogs.com',
           role: 'User',
           favoriteRestaurants: [],
+          restaurant: []
         });
       });
   });
