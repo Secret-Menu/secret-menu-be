@@ -1,12 +1,14 @@
 const request = require('supertest');
 const app = require('../lib/app');
 const { getRestaurant, getRestaurants } = require('../db/data-helpers');
+const mongoose = require('mongoose');
 
 describe('restaurant routes', () => {
   it('creates a restaurant', () => {
     return request(app)
       .post('/api/v1/restaurants')
       .send({
+        owner: new mongoose.Types.ObjectId(),
         restaurantName: 'Hannah\'s Hummus',
         phoneNumber: '503-555-5555',
         category: 'Mediterranean',
@@ -27,6 +29,7 @@ describe('restaurant routes', () => {
       .then(res => {
         expect(res.body).toEqual({
           _id: expect.any(String),
+          owner: expect.any(String),
           restaurantName: 'Hannah\'s Hummus',
           phoneNumber: '503-555-5555',
           category: 'Mediterranean',
