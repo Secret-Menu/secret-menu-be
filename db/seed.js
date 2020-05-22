@@ -28,6 +28,7 @@ module.exports = async() => {
   })));
 
   const restaurants = await Restaurant.create(restaurant_seed.map(restaurant => ({
+    owner: chance.pickone(users)._id,
     restaurantName: restaurant.restaurantName,
     phoneNumber: restaurant.phoneNumber,
     category: restaurant.category,
@@ -38,6 +39,8 @@ module.exports = async() => {
       state: restaurant.address.state, 
       zipcode: restaurant.address.zipcode
     },
+    lat: restaurant.lat,
+    lng: restaurant.lng,
     description: restaurant.description,
     imageUrl: restaurant.imageUrl,
     websiteUrl: restaurant.websiteUrl,

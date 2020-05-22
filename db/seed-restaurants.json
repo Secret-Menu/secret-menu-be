@@ -10,6 +10,8 @@
       "state": "OR", 
       "zipcode": 97218
     },
+    "lat":45.516037, 
+    "lng": -122.605566,
     "description": "Hannah's Hummus description goes here",
     "imageUrl": "https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/story/more-diet.jpg",
     "websiteUrl": "https://hannahshummus.com",
@@ -26,6 +28,8 @@
       "state": "OR", 
       "zipcode": 97218
     },
+    "lat": 45.518384,
+    "lng": -122.654345,
     "description": "Bamboo Grove description goes here",
     "imageUrl": "https://www.hawaiimagazine.com/sites/default/files/sites/default/files/Hawaiian-food-ThinkstockPhotos-488006550.jpg",
     "websiteUrl": "https://chrisbamboogrove.com",
@@ -42,6 +46,8 @@
       "state": "OR", 
       "zipcode": 97218
     },
+    "lat": 45.544600,
+    "lng": -122.664385,
     "description": "Josh's Vegan Palace description goes here",
     "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/2/2017/04/carot-falafel_charlie-richards.cropped.jpg?quality=45&resize=768,574",
     "websiteUrl": "https://joshsveganpalace.com",
@@ -58,6 +64,8 @@
       "state": "OR", 
       "zipcode": 97218
     },
+    "lat": 45.523653,
+    "lng": -122.687620,
     "description": "Ciao Bella description goes here",
     "imageUrl": "https://serafinamia.com/wp-content/uploads/2018/09/10-Italian-Fun-Facts-The-Food-Fashion-and-Culture-of-Italy.jpg",
     "websiteUrl": "https://ciaobellapastapdx.com",
