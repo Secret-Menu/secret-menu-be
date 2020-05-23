@@ -12,7 +12,7 @@ describe('restaurant routes', () => {
         restaurantName: 'Hannah\'s Hummus',
         phoneNumber: '503-555-5555',
         category: 'Mediterranean',
-        quadrant: 'Southeast',
+        quadrant: 'SE',
         address: {
           streetAddress: '123 Main St.',
           city: 'Portland',
@@ -33,7 +33,7 @@ describe('restaurant routes', () => {
           restaurantName: 'Hannah\'s Hummus',
           phoneNumber: '503-555-5555',
           category: 'Mediterranean',
-          quadrant: 'Southeast',
+          quadrant: 'SE',
           address: {
             streetAddress: '123 Main St.',
             city: 'Portland',
