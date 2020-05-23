@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../lib/app');
-const { getRestaurant, getRestaurants } = require('../db/data-helpers');
+const { getRestaurant, getRestaurants, getOfferings, getPolls } = require('../db/data-helpers');
 const mongoose = require('mongoose');
 
 describe('restaurant routes', () => {
@@ -51,20 +51,38 @@ describe('restaurant routes', () => {
   });
   it('gets a restaurant by id', async() => {
     const restaurant = await getRestaurant();
+    const offerings = await getOfferings({ restaurant: restaurant._id });
+    const polls = await getPolls({ restaurant: restaurant._id });
+    const restaurantPopulated = {
+      ...restaurant,
+      offerings: offerings,
+      polls: polls
+    };
+
 
     return request(app)
       .get(`/api/v1/restaurants/${restaurant._id}`)
       .then(res => {
-        expect(res.body).toEqual(restaurant);
+        expect(res.body).toEqual(restaurantPopulated);
       });
   });
   it('gets all restaurants', async() => {
     const restaurants = await getRestaurants();
-
+    const offerings = await getOfferings();
+    const polls = await getPolls();
+    const restaurantsPopulated = restaurants.map(restaurant => {
+      const restaurantOfferings = offerings.filter(offering => restaurant._id === offering.restaurant);
+      const restaurantPolls = polls.filter(poll => restaurant._id === poll.restaurant);
+      return ({
+        ...restaurant,
+        offerings: restaurantOfferings,
+        polls: restaurantPolls
+      });
+    });
     return request(app)
       .get('/api/v1/restaurants')
       .then(res => {
-        expect(res.body).toEqual(restaurants);
+        expect(res.body).toEqual(restaurantsPopulated);
       });
   });
   it('updates a restaurant by id', async() => {
