@@ -3,7 +3,7 @@
     "restaurantName": "Hannah's Hummus",
     "phoneNumber": "503-555-5555",
     "category": "Mediterranean",
-    "quadrant": "Southeast",
+    "quadrant": "SE",
     "address": {
       "streetAddress": "123 Main St.",
       "city": "Portland",
@@ -21,7 +21,7 @@
     "restaurantName": "Chris' Bamboo Grove",
     "phoneNumber": "503-555-6666",
     "category": "Other",
-    "quadrant": "Southwest",
+    "quadrant": "SW",
     "address": {
       "streetAddress": "456 Main St.",
       "city": "Portland",
@@ -39,7 +39,7 @@
     "restaurantName": "Josh's Vegan Palace",
     "phoneNumber": "503-555-7777",
     "category": "American",
-    "quadrant": "Northeast",
+    "quadrant": "NE",
     "address": {
       "streetAddress": "789 Main St.",
       "city": "Portland",
@@ -57,7 +57,7 @@
     "restaurantName": "Ciao Bella",
     "phoneNumber": "503-555-8888",
     "Category": "Italian",
-    "quadrant": "Northwest",
+    "quadrant": "NW",
     "address": {
       "streetAddress": "123 Second St.",
       "city": "Portland",
