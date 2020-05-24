@@ -1,7 +1,7 @@
 const request = require('supertest');
 const mongoose = require('mongoose');
 const app = require('../lib/app');
-const { getPoll, getPolls } = require('../db/data-helpers');
+const { getPoll, getPolls, getAgent } = require('../db/data-helpers');
 
 describe('polls routes', () => {
   it('creates a poll', () => {
@@ -35,7 +35,8 @@ describe('polls routes', () => {
           offering2Name: 'Pulled Pork Slider Sammies',
           offering2Votes: 0,
           offering2ImageUrl: 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2016/6/10/0/CCKHWSP2H_Pulled-Pork-Sliders_s4x3.jpg.rend.hgtvcom.616.462.suffix/1465587520182.jpeg',
-          offering2Description: 'Build your own pulled pork slider sammies - comes with coleslaw and potato salad'
+          offering2Description: 'Build your own pulled pork slider sammies - comes with coleslaw and potato salad',
+          voters: []
         });
       });
   });
@@ -69,23 +70,38 @@ describe('polls routes', () => {
           offering2Name: poll.offering2Name,
           offering2Votes: poll.offering2Votes,
           offering2ImageUrl: poll.offering2ImageUrl,
-          offering2Description: poll.offering2Description
+          offering2Description: poll.offering2Description,
+          voters: []
+        });
       });
-    });
   });
 
   it('updates a poll by id', async() => {
     const poll = await getPoll();
 
     return request(app)
-    .patch(`/api/v1/polls/${poll._id}`)
-    .send({ end: '2020-05-31T16:00:00.000Z' })
-    .then(res => {
-      expect(res.body).toEqual({
-        ...poll,
-        end: '2020-05-31T16:00:00.000Z'
+      .patch(`/api/v1/polls/${poll._id}`)
+      .send({ end: '2020-05-31T16:00:00.000Z' })
+      .then(res => {
+        expect(res.body).toEqual({
+          ...poll,
+          end: '2020-05-31T16:00:00.000Z'
+        });
       });
-    });
+  });
+
+  it('updates a poll with a vote', async() => {
+    const poll = await getPoll();
+    return getAgent()
+      .patch(`/api/v1/polls/vote/${poll._id}`)
+      .send({ offering1Votes: 1 })
+      .then(res => {
+        expect(res.body).toEqual({
+          ...poll,
+          offering1Votes: poll.offering1Votes + 1,
+          voters: [expect.any(String)]
+        });
+      });
   });
 
   it('deletes a poll by id', async() => {
