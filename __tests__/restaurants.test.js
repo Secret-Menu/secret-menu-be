@@ -82,7 +82,11 @@ describe('restaurant routes', () => {
     return request(app)
       .get('/api/v1/restaurants')
       .then(res => {
-        expect(res.body).toEqual(restaurantsPopulated);
+        expect(res.body).toEqual({
+          restaurants: [...restaurantsPopulated],
+          anchorPoint: expect.any(Object)
+        }
+        );
       });
   });
   it('updates a restaurant by id', async() => {
