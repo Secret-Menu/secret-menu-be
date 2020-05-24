@@ -10,7 +10,6 @@ Promise.all([
   mongoose.connection.dropCollection('offerings'),
   mongoose.connection.dropCollection('polls'),
   mongoose.connection.dropCollection('users'),
-
 ])
   .then(() => seedDatabase())
   .then(() => {
