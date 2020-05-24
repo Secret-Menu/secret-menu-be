@@ -42,27 +42,29 @@ describe('ordering routes', () => {
       });
   });
 
-  // it('gets all orders for a restaurant', async() => {
-  //   const restaurant = await getRestaurant();
-  //   const offering = await getOffering();
-  //   const orders = await getOrders({ restaurant: restaurant._id });
+  it('gets all orders for a restaurant', async() => {
+    const restaurant = await getRestaurant();
+    const offering = await getOffering();
+    const orders = await getOrders({ restaurant: restaurant._id });
 
-  //   return request(app)
-  //     .get(`/api/v1/orders/restaurant/${restaurant._id}`)
-  //     .then(res => {
-  //       expect(res.body).toEqual(orders);
-  //     });
-  // });
-  // it('gets all orders for a user', async() => {
-  //   const user = await getUser();
-  //   const orders = await getOrders({ user: user._id });
+    return request(app)
+      .get(`/api/v1/orders/restaurant/${restaurant._id}`)
+      .then(res => {
+        expect(res.body).toEqual(orders);
+      });
+  });
+  
+  it('gets all orders for a user', async() => {
+    const user = await getUser();
+    const orders = await getOrders({ user: user._id });
 
-  //   return request(app)
-  //     .get(`/api/v1/orders/user/${user._id}`)
-  //     .then(res => {
-  //       expect(res.body).toEqual(orders);
-  //     });
-  // });
+    return request(app)
+      .get(`/api/v1/orders/user/${user._id}`)
+      .then(res => {
+        console.log(res.body);
+        expect(res.body).toEqual(orders);
+      });
+  });
   // it('deletes an order by id', async() => {
   //   const order = await getOrder();
 
