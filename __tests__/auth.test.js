@@ -40,30 +40,30 @@ describe('auth routes', () => {
           lastName: 'Cairns',
           email: 'spot@dogs.com',
           role: 'User',
-          favoriteRestaurants: []
+          favoriteRestaurants: [],
         });
       });
   });
 
-  it('logs in a restaurant', async() => {
-    return request(app)
-      .post('/api/v1/auth/login')
-      .send({
-        email: 'test4@secretmenu.com',
-        password: 'admin'
-      })
-      .then(res => {
-        expect(res.body).toEqual({
-          _id: expect.any(String),
-          firstName: 'Josh',
-          lastName: 'Ford',
-          email: 'test4@secretmenu.com',
-          role: 'Restaurant',
-          favoriteRestaurants: [],
-          restaurant: expect.any(Array)
-        });
-      });
-  });
+  // it('logs in a restaurant', async() => {
+  //   return request(app)
+  //     .post('/api/v1/auth/login')
+  //     .send({
+  //       email: 'test4@secretmenu.com',
+  //       password: 'admin'
+  //     })
+  //     .then(res => {
+  //       expect(res.body).toEqual({
+  //         _id: expect.any(String),
+  //         firstName: 'Josh',
+  //         lastName: 'Ford',
+  //         email: 'test4@secretmenu.com',
+  //         role: 'Restaurant',
+  //         favoriteRestaurants: [],
+  //         restaurant: expect.any(Array)
+  //       });
+  //     });
+  // });
 
   it('verifies a logged in user', () => {
     return getAgent()
