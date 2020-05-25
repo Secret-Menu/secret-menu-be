@@ -15,6 +15,7 @@ describe('offering routes', () => {
         description: 'yummy tofu scramble dish!',
         numRemaining: 5,
         price: 1000,
+        pickUpDate: new Date(),
         restaurant: new mongoose.Types.ObjectId(),
         dietaryRestriction: ['Vegetarian', 'Vegan']
       },)
@@ -26,6 +27,7 @@ describe('offering routes', () => {
           description: 'yummy tofu scramble dish!',
           numRemaining: 5,
           price: 1000,
+          pickUpDate: expect.any(String),
           restaurant: expect.any(String),
           dietaryRestriction: ['Vegetarian', 'Vegan']
         }
