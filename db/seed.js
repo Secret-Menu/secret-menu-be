@@ -63,10 +63,12 @@ module.exports = async() => {
     orderNumber: chance.integer(),
     user: chance.pickone(users)._id,
     restaurant: chance.pickone(restaurants)._id,
-    offering: chance.pickone(offerings)._id,
-    quantity: chance.integer({ min: 0, max: 50 }),
+    offering: [{
+      offering: chance.pickone(offerings)._id, 
+      quantity: chance.integer({ min: 0, max: 50 })}],
     pickUpDate: chance.date(),
-    orderStatus: chance.pickone(orderStatus)
+    orderStatus: chance.pickone(orderStatus),
+    orderTotal: chance.integer()
   })));
 
   await Poll.create(poll_seed.map(poll => ({
