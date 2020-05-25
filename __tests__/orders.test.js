@@ -17,7 +17,7 @@ describe('ordering routes', () => {
         restaurant: restaurant._id,
         offering:[{ 
           offering: offering._id,
-          quantity: 1}],
+          quantity: 1 }],
         pickUpDate: new Date('2020-05-31T14:00:00Z'),
         orderStatus: 'Open',
         orderTotal: 3
@@ -33,7 +33,7 @@ describe('ordering routes', () => {
           offering:[{ 
             _id: expect.any(String),
             offering: offering._id,
-            quantity: 1}],
+            quantity: 1 }],
           pickUpDate: '2020-05-31T14:00:00.000Z',
           updatedAt: expect.any(String),
           orderStatus: 'Open',
@@ -50,7 +50,24 @@ describe('ordering routes', () => {
     return request(app)
       .get(`/api/v1/orders/restaurant/${restaurant._id}`)
       .then(res => {
-        expect(res.body).toEqual(orders);
+        expect(res.body).toEqual(orders.map(order => ({
+          ...order,
+          offering: [{
+            _id: expect.any(String),
+            offering: {
+              _id: expect.any(String),
+              description: expect.any(String),
+              dietaryRestriction: expect.any(Array),
+              dishName: expect.any(String),
+              imageUrl: expect.any(String),
+              numRemaining: expect.any(Number),
+              price: expect.any(Number),
+              restaurant: expect.any(String),
+              servingSize: expect.any(Number)
+            },
+            quantity: expect.any(Number),
+          }]
+        })));
       });
   });
   
@@ -61,7 +78,6 @@ describe('ordering routes', () => {
     return request(app)
       .get(`/api/v1/orders/user/${user._id}`)
       .then(res => {
-        console.log(res.body);
         expect(res.body).toEqual(orders);
       });
   });
