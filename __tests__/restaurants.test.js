@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../lib/app');
-const { getRestaurant, getRestaurants, getOfferings, getPolls } = require('../db/data-helpers');
+const { getRestaurant, getRestaurants, getOfferings, getPolls, getOrders } = require('../db/data-helpers');
 const mongoose = require('mongoose');
 
 describe('restaurant routes', () => {
@@ -53,10 +53,12 @@ describe('restaurant routes', () => {
     const restaurant = await getRestaurant();
     const offerings = await getOfferings({ restaurant: restaurant._id });
     const polls = await getPolls({ restaurant: restaurant._id });
+    const orders = await getOrders({ restaurant: restaurant._id });
     const restaurantPopulated = {
       ...restaurant,
       offerings: offerings,
-      polls: polls
+      polls: polls,
+      orders: expect.any(Array)
     };
 
 

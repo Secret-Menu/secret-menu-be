@@ -1,7 +1,6 @@
 const request = require('supertest');
 const app = require('../lib/app');
-const mongoose = require('mongoose');
-const { getOrder, getOrders, getRestaurant, getRestaurants, getUser, getPoll, getPolls, getOffering, getOfferings } = require('../db/data-helpers');
+const { getOrder, getOrders, getRestaurant, getUser, getOffering } = require('../db/data-helpers');
 
 describe('ordering routes', () => {
   it('creates an order', async() => {
@@ -44,7 +43,6 @@ describe('ordering routes', () => {
 
   it('gets all orders for a restaurant', async() => {
     const restaurant = await getRestaurant();
-    // const offering = await getOffering();
     const orders = await getOrders({ restaurant: restaurant._id });
 
     return request(app)
@@ -63,7 +61,8 @@ describe('ordering routes', () => {
               numRemaining: expect.any(Number),
               price: expect.any(Number),
               restaurant: expect.any(String),
-              servingSize: expect.any(Number)
+              servingSize: expect.any(Number),
+              pickUpDate: expect.any(String)
             },
             quantity: expect.any(Number),
           }]
@@ -107,7 +106,6 @@ describe('ordering routes', () => {
         }
       ] })
       .then(res => {
-        console.log(res.body);
         expect(res.body).toEqual({
           ...order,
           offering: [
@@ -120,6 +118,4 @@ describe('ordering routes', () => {
         });
       });
   });
-
-
 });
