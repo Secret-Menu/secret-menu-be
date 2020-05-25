@@ -78,7 +78,6 @@ describe('ordering routes', () => {
     return request(app)
       .get(`/api/v1/orders/user/${user._id}`)
       .then(res => {
-        console.log(res.body);
         expect(res.body).toEqual(orders);
       });
   });
@@ -107,7 +106,6 @@ describe('ordering routes', () => {
         }
       ] })
       .then(res => {
-        console.log(res.body);
         expect(res.body).toEqual({
           ...order,
           offering: [
