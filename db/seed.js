@@ -66,8 +66,8 @@ module.exports = async() => {
     restaurant: chance.pickone(restaurants)._id,
     offering: [{
       offering: chance.pickone(offerings)._id, 
-      quantity: chance.integer({ min: 0, max: 50 })}],
-    pickUpDate: chance.date(),
+      quantity: chance.integer({ min: 0, max: 50 }) }],
+    pickUpDate: chance.date({ year: 2020 }),
     orderStatus: chance.pickone(orderStatus),
     orderTotal: chance.integer()
   })));
