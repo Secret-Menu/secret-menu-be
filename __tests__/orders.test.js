@@ -44,7 +44,7 @@ describe('ordering routes', () => {
 
   it('gets all orders for a restaurant', async() => {
     const restaurant = await getRestaurant();
-    const offering = await getOffering();
+    // const offering = await getOffering();
     const orders = await getOrders({ restaurant: restaurant._id });
 
     return request(app)
@@ -81,29 +81,43 @@ describe('ordering routes', () => {
         expect(res.body).toEqual(orders);
       });
   });
-  // it('deletes an order by id', async() => {
-  //   const order = await getOrder();
 
-  //   return request(app)
-  //     .delete(`/api/v1/orders/${order._id}`)
-  //     .then(res => {
-  //       expect(res.body).toEqual(order);
-  //     });
-  // });
-  // it('updates an order by id', async() => {
-  //   const order = await getOrder();
+  it('deletes an order by id', async() => {
+    const order = await getOrder();
 
-  //   return request(app)
-  //     .patch(`/api/v1/orders/${order._id}`)
-  //     .send({ quantity: 2 })
-  //     .then(res => {
-  //       expect(res.body).toEqual({
-  //         ...order,
-  //         quantity: 2
-  //       });
-  //     });
-  // });
+    return request(app)
+      .delete(`/api/v1/orders/${order._id}`)
+      .then(res => {
+        expect(res.body).toEqual({
+          ...order,
+          updatedAt: expect.any(String)
+        });
+      });
+  });
+
+  it('updates an order by id', async() => {
+    const order = await getOrder();
+
+    return request(app)
+      .patch(`/api/v1/orders/${order._id}`)
+      .send({ offering: [
+        {
+          quantity: 2
+        }
+      ] })
+      .then(res => {
+        console.log(res.body);
+        expect(res.body).toEqual({
+          ...order,
+          offering: [
+            {
+              _id: expect.any(String),
+              quantity: 2
+            }
+          ],
+          updatedAt: expect.any(String),
+        });
+      });
+  });
 
 });
-
-
