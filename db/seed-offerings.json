@@ -34,7 +34,7 @@
     "imageUrl": "https://media.bahamabreeze.com/en_us/images/product/ClassicMargarita.jpg",
     "description": "A pitcher of our famous secret margarita mix, 2 limes, and chili salt - just add tequila!",
     "numRemaining": 100,
-    "servings": 4,
+    "servingSize": 4,
     "price": 5000,
     "restaurant": "",
     "dietaryRestriction": "None"
