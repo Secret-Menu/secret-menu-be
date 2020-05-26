@@ -56,7 +56,7 @@ module.exports = async() => {
     price: offering.price,
     restaurant: chance.pickone(restaurants)._id,
     dietaryRestriction: offering.dietaryRestriction,
-    pickUpDate: chance.date()
+    pickUpDate: chance.date({ year: 2020 })
   })));
 
   const orderStatus = ['Open', 'Closed'];
