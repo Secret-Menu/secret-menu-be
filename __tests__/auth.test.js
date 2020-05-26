@@ -20,8 +20,7 @@ describe('auth routes', () => {
           firstName: 'Danny',
           lastName: 'Cairns',
           email: 'spotty@dogs.com',
-          role: 'User',
-          favoriteRestaurants: [],
+          role: 'User'
         });
       });
   });
@@ -39,8 +38,7 @@ describe('auth routes', () => {
           firstName: 'Danny',
           lastName: 'Cairns',
           email: 'spot@dogs.com',
-          role: 'User',
-          favoriteRestaurants: [],
+          role: 'User'
         });
       });
   });
@@ -74,8 +72,7 @@ describe('auth routes', () => {
           firstName: 'Danny',
           lastName: 'Cairns',
           email: 'spot@dogs.com',
-          role: 'User',
-          favoriteRestaurants: []
+          role: 'User'
         });
       });
   });
