@@ -16,9 +16,8 @@ describe('ordering routes', () => {
         restaurant: restaurant._id,
         offering:[{ 
           offering: offering._id,
-          quantity: 1 }],
-        pickUpDate: new Date('2020-05-31T14:00:00Z'),
-        orderStatus: 'Open',
+          quantity: 1,
+          orderStatus: 'Open' }],
         orderTotal: 3
       })
       .then(res => {
@@ -32,10 +31,9 @@ describe('ordering routes', () => {
           offering:[{ 
             _id: expect.any(String),
             offering: offering._id,
-            quantity: 1 }],
-          pickUpDate: '2020-05-31T14:00:00.000Z',
+            quantity: 1,
+            orderStatus: 'Open' }],
           updatedAt: expect.any(String),
-          orderStatus: 'Open',
           orderTotal: 3
         });
       });
@@ -65,6 +63,7 @@ describe('ordering routes', () => {
               pickUpDate: expect.any(String)
             },
             quantity: expect.any(Number),
+            orderStatus: expect.any(String)
           }]
         })));
       });
