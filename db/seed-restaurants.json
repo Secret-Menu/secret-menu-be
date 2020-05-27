@@ -304,5 +304,167 @@
     "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/AcCaCjUrWLuKkUivfdz0Pg/o.jpg",
     "websiteUrl": "https://www.yelp.com/biz/backyard-social-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
     "email": "info@Backyard Social.com"
-    }
+    },
+    {
+      "restaurantName": "Toro Bravo",
+      "phoneNumber": "(503) 281-4464",
+      "category": "Tapas Bars",
+      "quadrant": "N",
+      "address": {
+      "streetAddress": "120 NE Russell St",
+      "city": "Portland",
+      "state": "OR",
+      "zipcode": "97212"
+      },
+      "lat": 45.5408698443215,
+      "lng": -122.663704459,
+      "description": "So yummy!",
+      "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/b20AF7qu71FBcBc4e7jnPQ/o.jpg",
+      "websiteUrl": "https://www.yelp.com/biz/toro-bravo-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+      "email": "info@Toro Bravo.com"
+    },
+    {
+    "restaurantName": "Eem",
+    "phoneNumber": "(971) 295-1645",
+    "category": "Cocktail Bars",
+    "quadrant": "N",
+    "address": {
+    "streetAddress": "3808 N Williams Ave",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97227"
+    },
+    "lat": 45.550666,
+    "lng": -122.666517,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/s9BSYZeT3TI9zZ4xOymddw/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/eem-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@Eem.com"
+    },
+    {
+      "restaurantName": "Kayo's Ramen Bar",
+      "phoneNumber": "(503) 477-6016",
+      "category": "Ramen",
+      "quadrant": "N",
+      "address": {
+      "streetAddress": "3808 N Williams Ave",
+      "city": "Portland",
+      "state": "OR",
+      "zipcode": "97227"
+      },
+      "lat": 45.5502899,
+      "lng": -122.66641,
+      "description": "So yummy!",
+      "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/zOv6-w8MvVxvHmMHceLpuw/o.jpg",
+      "websiteUrl": "https://www.yelp.com/biz/kayos-ramen-bar-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+      "email": "info@Kayo's Ramen Bar.com"
+      },
+      {
+        "restaurantName": "XLB",
+        "phoneNumber": "(503) 841-5373",
+        "category": "Noodles",
+        "quadrant": "N",
+        "address": {
+        "streetAddress": "4090 N Williams Ave",
+        "city": "Portland",
+        "state": "OR",
+        "zipcode": "97227"
+        },
+        "lat": 45.55317,
+        "lng": -122.66642,
+        "description": "So yummy!",
+        "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/FiyShuS21jmNEqOvmThW6w/o.jpg",
+        "websiteUrl": "https://www.yelp.com/biz/xlb-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+        "email": "info@XLB.com"
+        },
+        {
+        "restaurantName": "Yang‘s Noodle",
+        "phoneNumber": "(503) 546-7063",
+        "category": "Chinese",
+        "quadrant": "N",
+        "address": {
+        "streetAddress": "1625 NE Alberta St",
+        "city": "Portland",
+        "state": "OR",
+        "zipcode": "97211"
+        },
+        "lat": 45.55924,
+        "lng": -122.64835,
+        "description": "So yummy!",
+        "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/gXvzUEH_29Og4BrD56PK8w/o.jpg",
+        "websiteUrl": "https://www.yelp.com/biz/yang-s-noodle-portland-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+        "email": "info@Yang‘s Noodle.com"
+        },
+        {
+          "restaurantName": "Black Seed Burger Cult",
+          "phoneNumber": "(971) 544-7277",
+          "category": "Burgers",
+          "quadrant": "N",
+          "address": {
+          "streetAddress": "3746 N Mississippi Ave",
+          "city": "Portland",
+          "state": "OR",
+          "zipcode": "97227"
+          },
+          "lat": 45.55016167,
+          "lng": -122.67543167,
+          "description": "So yummy!",
+          "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/tVf7smTvxzrFw_-Vwy-zVQ/o.jpg",
+          "websiteUrl": "https://www.yelp.com/biz/black-seed-burger-cult-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+          "email": "info@Black Seed Burger Cult.com"
+          },
+          {
+          "restaurantName": "La Cocina Restaurant",
+          "phoneNumber": "(503) 278-5414",
+          "category": "Mexican",
+          "quadrant": "N",
+          "address": {
+          "streetAddress": "3901 N Williams Ave",
+          "city": "Portland",
+          "state": "OR",
+          "zipcode": "97227"
+          },
+          "lat": 45.551018,
+          "lng": -122.6669547,
+          "description": "So yummy!",
+          "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/xK5ZFyzJSzmCvvPgsSZFYw/o.jpg",
+          "websiteUrl": "https://www.yelp.com/biz/la-cocina-restaurant-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+          "email": "info@La Cocina Restaurant.com"
+          },
+    {
+    "restaurantName": "Zaap Thai",
+    "phoneNumber": "(503) 208-3018",
+    "category": "Thai",
+    "quadrant": "N",
+    "address": {
+    "streetAddress": "3513 NE Martin Luther King Jr Blvd",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97212"
+    },
+    "lat": 45.54849,
+    "lng": -122.66195,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/Aiyfi0BFBQOgShfuu2c1gQ/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/zaap-thai-portland-3?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@Zaap Thai.com"
+    },
+{
+  "restaurantName": "Silsila the Flaming Tandoor",
+  "phoneNumber": "(971) 373-8641",
+  "category": "Indian",
+  "quadrant": "N",
+  "address": {
+  "streetAddress": "819 N Killingsworth St",
+  "city": "Portland",
+  "state": "OR",
+  "zipcode": "97217"
+  },
+  "lat": 45.562826,
+  "lng": -122.675398,
+  "description": "So yummy!",
+  "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/WK7LzgwFTwPjY6aeALiuYg/o.jpg",
+  "websiteUrl": "https://www.yelp.com/biz/silsila-the-flaming-tandoor-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+  "email": "info@Silsila the Flaming Tandoor.com"
+  }
   ]

@@ -6,10 +6,10 @@ const mongoose = require('mongoose');
 
 connect();
 Promise.all([
-  mongoose.connection.dropCollection('restaurants'),
-  mongoose.connection.dropCollection('offerings'),
-  mongoose.connection.dropCollection('polls'),
-  mongoose.connection.dropCollection('users'),
+  // mongoose.connection.dropCollection('restaurants'),
+  // mongoose.connection.dropCollection('offerings'),
+  // mongoose.connection.dropCollection('polls'),
+  // mongoose.connection.dropCollection('users'),
 ])
   .then(() => seedDatabase())
   .then(() => {
