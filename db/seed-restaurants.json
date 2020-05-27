@@ -70,5 +70,239 @@
     "imageUrl": "https://serafinamia.com/wp-content/uploads/2018/09/10-Italian-Fun-Facts-The-Food-Fashion-and-Culture-of-Italy.jpg",
     "websiteUrl": "https://ciaobellapastapdx.com",
     "email": "contact@ciaobellapastapadx.com"
-  }
-]
+  },
+    {
+    "restaurantName": "Union Burger",
+    "phoneNumber": "(503) 744-9745",
+    "category": "Burgers",
+    "quadrant": "N",
+    "address": {
+    "streetAddress": "7339 NE Mlk",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97211"
+    },
+    "lat": 45.5763354,
+    "lng": -122.661695703864,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/vbwD2gjp16zx7xMALAbV_g/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/union-burger-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@Union Burger.com"
+    },
+    {
+    "restaurantName": "Ezell's Famous Chicken",
+    "phoneNumber": "(503) 747-0164",
+    "category": "Southern",
+    "quadrant": "N",
+    "address": {
+    "streetAddress": "10218 SW Washington Square Rd",
+    "city": "Tigard",
+    "state": "OR",
+    "zipcode": "97223"
+    },
+    "lat": 45.446674,
+    "lng": -122.77711867,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/h06QOLNmn3Za692IoTq42Q/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/ezells-famous-chicken-tigard-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@Ezell's Famous Chicken.com"
+    },
+    {
+    "restaurantName": "Silsila the Flaming Tandoor",
+    "phoneNumber": "(971) 373-8641",
+    "category": "Indian",
+    "quadrant": "N",
+    "address": {
+    "streetAddress": "819 N Killingsworth St",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97217"
+    },
+    "lat": 45.562826,
+    "lng": -122.675398,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/WK7LzgwFTwPjY6aeALiuYg/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/silsila-the-flaming-tandoor-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@Silsila the Flaming Tandoor.com"
+    },
+    {
+    "restaurantName": "SPITZ",
+    "phoneNumber": "(503) 954-3601",
+    "category": "Mediterranean",
+    "quadrant": "N",
+    "address": {
+    "streetAddress": "2103 N Killingsworth St",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97217"
+    },
+    "lat": 45.56293,
+    "lng": -122.68911,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/z16Tq6OpGXhqexcMflk7VA/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/spitz-portland-8?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@SPITZ.com"
+    },
+    {
+    "restaurantName": "Skyline Tavern Project",
+    "phoneNumber": "(503) 286-4788",
+    "category": "Beer Gardens",
+    "quadrant": "N",
+    "address": {
+    "streetAddress": "8031 NW Skyline Blvd",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97229"
+    },
+    "lat": 45.57952,
+    "lng": -122.79755,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/u9_8vgAuCZk4BpKrnkfqxg/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/skyline-tavern-project-portland-3?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@Skyline Tavern Project.com"
+    },
+    {
+    "restaurantName": "de Fuego",
+    "phoneNumber": "(503) 652-1515",
+    "category": "Latin American",
+    "quadrant": "SE",
+    "address": {
+    "streetAddress": "12566 SE 93rd Ave",
+    "city": "Clackamas",
+    "state": "OR",
+    "zipcode": "97015"
+    },
+    "lat": 45.430992,
+    "lng": -122.567432,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/KSMlueGegjf7Indtcibn3g/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/de-fuego-clackamas?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@de Fuego.com"
+    },
+    {
+    "restaurantName": "Interurban",
+    "phoneNumber": "(503) 284-6669",
+    "category": "Bars",
+    "quadrant": "N",
+    "address": {
+    "streetAddress": "4057 N Mississippi Ave",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97227"
+    },
+    "lat": 45.5529720703346,
+    "lng": -122.675630023423,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/kX-9-Yihi8XSi_wFpYQd5A/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/interurban-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@Interurban.com"
+    },
+    {
+    "restaurantName": "Yang‘s Noodle",
+    "phoneNumber": "(503) 546-7063",
+    "category": "Chinese",
+    "quadrant": "NE",
+    "address": {
+    "streetAddress": "1625 NE Alberta St",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97211"
+    },
+    "lat": 45.55924,
+    "lng": -122.64835,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/gXvzUEH_29Og4BrD56PK8w/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/yang-s-noodle-portland-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@Yang‘s Noodle.com"
+    },
+    {
+    "restaurantName": "Campana",
+    "phoneNumber": "(503) 841-6195",
+    "category": "Italian",
+    "quadrant": "N",
+    "address": {
+    "streetAddress": "901 NE Oneonta St",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97211"
+    },
+    "lat": 45.57207,
+    "lng": -122.65679,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/Kq6W84OzLDyAK0CEPs542g/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/campana-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@Campana.com"
+    },
+    {
+    "restaurantName": "K-Pub Grill",
+    "phoneNumber": "(503) 954-1722",
+    "category": "Korean",
+    "quadrant": "NE",
+    "address": {
+    "streetAddress": "7339 NE Martin Luther King Jr Blvd",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97211"
+    },
+    "lat": 45.57634,
+    "lng": -122.66171,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/eVAVHBGTDr2Ztl1QvXi_pQ/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/k-pub-grill-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@K-Pub Grill.com"
+    },
+    {
+    "restaurantName": "Casa Zoraya",
+    "phoneNumber": "(503) 384-2455",
+    "category": "Peruvian",
+    "quadrant": "N",
+    "address": {
+    "streetAddress": "841 N Lombard St",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97217"
+    },
+    "lat": 45.577445,
+    "lng": -122.6757309,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/T8DOSj8OY-UTG68_Z6LLXA/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/casa-zoraya-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@Casa Zoraya.com"
+    },
+    {
+    "restaurantName": "Kizuki Ramen & Izakaya",
+    "phoneNumber": "(971) 266-3188",
+    "category": "Ramen",
+    "quadrant": "NW",
+    "address": {
+    "streetAddress": "11830 NW Cedar Falls Dr",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97229"
+    },
+    "lat": 45.5217636,
+    "lng": -122.8021536,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/PmMdsQc70Tgiw6UniYTR5g/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/kizuki-ramen-and-izakaya-portland-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@Kizuki Ramen & Izakaya.com"
+    },
+    {
+    "restaurantName": "Backyard Social",
+    "phoneNumber": "(503) 719-4316",
+    "category": "Bars",
+    "quadrant": "NE",
+    "address": {
+    "streetAddress": "1914 N Killingsworth St",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97217"
+    },
+    "lat": 45.56255,
+    "lng": -122.686808,
+    "description": "So yummy!",
+    "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/AcCaCjUrWLuKkUivfdz0Pg/o.jpg",
+    "websiteUrl": "https://www.yelp.com/biz/backyard-social-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+    "email": "info@Backyard Social.com"
+    }
+  ]
