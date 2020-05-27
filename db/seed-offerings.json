@@ -10,6 +10,43 @@
     "dietaryRestriction": "None"
   },
   {
+    "dishName": "Taco Tuesday Kit",
+    "imageUrl": "https://elcocinerotlh.com/wp/wp-content/uploads/2019/10/taco-kit-2-02126-2000x1200.jpg",
+    "description": "Comes with 12 corn tortillas, pollo asado, tomato, onions, cilantro, cotija cheese, and sides of rice and black beans",
+    "numRemaining": 40,
+    "servingSize": 4,
+    "price": 4000,
+    "restaurant": "",
+    "dietaryRestriction": "None"
+  },  {
+    "dishName": "Taco Tuesday Kit",
+    "imageUrl": "https://elcocinerotlh.com/wp/wp-content/uploads/2019/10/taco-kit-2-02126-2000x1200.jpg",
+    "description": "Comes with 12 corn tortillas, pollo asado, tomato, onions, cilantro, cotija cheese, and sides of rice and black beans",
+    "numRemaining": 40,
+    "servingSize": 4,
+    "price": 4000,
+    "restaurant": "",
+    "dietaryRestriction": "None"
+  },  {
+    "dishName": "Taco Tuesday Kit",
+    "imageUrl": "https://elcocinerotlh.com/wp/wp-content/uploads/2019/10/taco-kit-2-02126-2000x1200.jpg",
+    "description": "Comes with 12 corn tortillas, pollo asado, tomato, onions, cilantro, cotija cheese, and sides of rice and black beans",
+    "numRemaining": 40,
+    "servingSize": 4,
+    "price": 4000,
+    "restaurant": "",
+    "dietaryRestriction": "None"
+  },  {
+    "dishName": "Taco Tuesday Kit",
+    "imageUrl": "https://elcocinerotlh.com/wp/wp-content/uploads/2019/10/taco-kit-2-02126-2000x1200.jpg",
+    "description": "Comes with 12 corn tortillas, pollo asado, tomato, onions, cilantro, cotija cheese, and sides of rice and black beans",
+    "numRemaining": 40,
+    "servingSize": 4,
+    "price": 4000,
+    "restaurant": "",
+    "dietaryRestriction": "None"
+  },
+  {
     "dishName": "Take & Bake Pizza",
     "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/12/20/0/FNK_Gluten-Free-Mushroom-Ricotta_Pizza_s4x3.jpg.rend.hgtvcom.826.620.suffix/1483737096931.jpeg",
     "description": "18 inch mushroom pizza ready to bake - just pop in the over for 15 minutes!",
