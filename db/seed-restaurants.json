@@ -90,24 +90,6 @@
     "email": "info@Union Burger.com"
     },
     {
-    "restaurantName": "Ezell's Famous Chicken",
-    "phoneNumber": "(503) 747-0164",
-    "category": "Southern",
-    "quadrant": "N",
-    "address": {
-    "streetAddress": "10218 SW Washington Square Rd",
-    "city": "Tigard",
-    "state": "OR",
-    "zipcode": "97223"
-    },
-    "lat": 45.446674,
-    "lng": -122.77711867,
-    "description": "So yummy!",
-    "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/h06QOLNmn3Za692IoTq42Q/o.jpg",
-    "websiteUrl": "https://www.yelp.com/biz/ezells-famous-chicken-tigard-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-    "email": "info@Ezell's Famous Chicken.com"
-    },
-    {
     "restaurantName": "Silsila the Flaming Tandoor",
     "phoneNumber": "(971) 373-8641",
     "category": "Indian",
@@ -1890,78 +1872,6 @@
             "email": "info@Ranch PDX.com"
             },
             {
-            "restaurantName": "Tasty Pot",
-            "phoneNumber": "(503) 746-6455",
-            "category": "Taiwanese",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "13227 SW Canyon Rd",
-            "city": "Beaverton",
-            "state": "OR",
-            "zipcode": "97005"
-            },
-            "lat": 45.48902433,
-            "lng": -122.8131865,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/B3dphnji7itHih4RcgGCiw/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/tasty-pot-beaverton-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@Tasty Pot.com"
-            },
-            {
-            "restaurantName": "Little Sheep Mongolian Hot Pot",
-            "phoneNumber": "(971) 238-9798",
-            "category": "Mongolian",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "3861 SW 117th Ave",
-            "city": "Beaverton",
-            "state": "OR",
-            "zipcode": "97005"
-            },
-            "lat": 45.4915424256979,
-            "lng": -122.800138706746,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/fz5RGBgwK9Q00bc9JWbeWg/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/little-sheep-mongolian-hot-pot-beaverton-3?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@Little Sheep Mongolian Hot Pot.com"
-            },
-            {
-            "restaurantName": "Din Tai Fung",
-            "phoneNumber": "(503) 768-9888",
-            "category": "Noodles",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "9724 SW Washington Square Rd",
-            "city": "Tigard",
-            "state": "OR",
-            "zipcode": "97223"
-            },
-            "lat": 45.448703,
-            "lng": -122.781377,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/XAZifLls9lvAhbq09_cpBg/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/din-tai-fung-tigard?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@Din Tai Fung.com"
-            },
-            {
-            "restaurantName": "Ezell's Famous Chicken",
-            "phoneNumber": "(503) 747-0164",
-            "category": "Southern",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "10218 SW Washington Square Rd",
-            "city": "Tigard",
-            "state": "OR",
-            "zipcode": "97223"
-            },
-            "lat": 45.446674,
-            "lng": -122.77711867,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/h06QOLNmn3Za692IoTq42Q/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/ezells-famous-chicken-tigard-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@Ezell's Famous Chicken.com"
-            },
-            {
             "restaurantName": "G-Love",
             "phoneNumber": "(971) 229-1043",
             "category": "American (New)",
@@ -2016,24 +1926,6 @@
             "email": "info@de Fuego.com"
             },
             {
-            "restaurantName": "Fido's Tap House",
-            "phoneNumber": "(503) 941-5757",
-            "category": "Comfort Food",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "7700 SW Dartmouth St",
-            "city": "Tigard",
-            "state": "OR",
-            "zipcode": "97223"
-            },
-            "lat": 45.43319,
-            "lng": -122.75593,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/awx23yJgcu1sVVGaKzhORg/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/fidos-tap-house-tigard?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@Fido's Tap House.com"
-            },
-            {
             "restaurantName": "Mediterranean Exploration Company",
             "phoneNumber": "(503) 222-0906",
             "category": "Mediterranean",
@@ -2052,42 +1944,6 @@
             "email": "info@Mediterranean Exploration Company.com"
             },
             {
-            "restaurantName": "Thirsty Lion Gastropub & Grill",
-            "phoneNumber": "(503) 352-4030",
-            "category": "Pubs",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "10205 SW Washington Sq Rd",
-            "city": "Tigard",
-            "state": "OR",
-            "zipcode": "97223"
-            },
-            "lat": 45.445816,
-            "lng": -122.776984,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/igF-ivSz36iQ79HNbzFYOw/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/thirsty-lion-gastropub-and-grill-tigard?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@Thirsty Lion Gastropub & Grill.com"
-            },
-            {
-            "restaurantName": "Du Kuh Bee",
-            "phoneNumber": "(503) 643-5388",
-            "category": "Korean",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "12590 SW 1st St",
-            "city": "Beaverton",
-            "state": "OR",
-            "zipcode": "97005"
-            },
-            "lat": 45.4862717524419,
-            "lng": -122.8058916,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/1tPasfp021R_EiN2vD4Ipw/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/du-kuh-bee-beaverton?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@Du Kuh Bee.com"
-            },
-            {
             "restaurantName": "Chimaek Town",
             "phoneNumber": "(503) 242-6404",
             "category": "Korean",
@@ -2104,24 +1960,6 @@
             "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/ZiCYCS7YWWn6NjXQ7m7neg/o.jpg",
             "websiteUrl": "https://www.yelp.com/biz/chimaek-town-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
             "email": "info@Chimaek Town.com"
-            },
-            {
-            "restaurantName": "Roxy's Island Grill",
-            "phoneNumber": "(503) 641-7699",
-            "category": "Hawaiian",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "2895 Cedar Hills Blvd",
-            "city": "Beaverton",
-            "state": "OR",
-            "zipcode": "97005"
-            },
-            "lat": 45.4994017,
-            "lng": -122.8083863,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/3zZ8ejv9lnAhxaEJwfxETg/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/roxys-island-grill-beaverton?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@Roxy's Island Grill.com"
             },
             {
             "restaurantName": "Please Louise",
