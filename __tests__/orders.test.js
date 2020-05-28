@@ -42,12 +42,14 @@ describe('ordering routes', () => {
   it('gets all orders for a restaurant', async() => {
     const restaurant = await getRestaurant();
     const orders = await getOrders({ restaurant: restaurant._id });
+    const user = await getUser({ associatedRestaurant: restaurant._id });
 
     return request(app)
       .get(`/api/v1/orders/restaurant/${restaurant._id}`)
       .then(res => {
         expect(res.body).toEqual(orders.map(order => ({
           ...order,
+          user: user,
           offering: [{
             _id: expect.any(String),
             offering: {
@@ -93,28 +95,28 @@ describe('ordering routes', () => {
       });
   });
 
-  it('updates an order by id', async() => {
-    const order = await getOrder();
+  // it('updates an order by id', async() => {
+  //   const order = await getOrder();
 
-    return request(app)
-      .patch(`/api/v1/orders/${order._id}`)
-      .send({ offering: [
-        {
-          quantity: 2
-        }
-      ] })
-      .then(res => {
-        expect(res.body).toEqual({
-          ...order,
-          offering: [
-            {
-              _id: expect.any(String),
-              quantity: 2
-            }
-          ],
-          updatedAt: expect.any(String),
-        });
-      });
-  });
+  //   return request(app)
+  //     .patch(`/api/v1/orders/${order._id}`)
+  //     .send({ offering: [
+  //       {
+  //         quantity: 2
+  //       }
+  //     ] })
+  //     .then(res => {
+  //       expect(res.body).toEqual({
+  //         ...order,
+  //         offering: [
+  //           {
+  //             _id: expect.any(String),
+  //             quantity: 2
+  //           }
+  //         ],
+  //         updatedAt: expect.any(String),
+  //       });
+  //     });
+  // });
 });
 
