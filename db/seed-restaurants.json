@@ -2537,4 +2537,365 @@
               "websiteUrl": "https://www.yelp.com/biz/pok-pok-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
               "email": "info@Pok Pok.com"
               }
+              ,
+              {
+                "restaurantName": "Pok Pok",
+                "phoneNumber": "(503) 232-1387",
+                "category": "Thai",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "3226 SE Division St",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97202"
+                },
+                "lat": 45.504723,
+                "lng": -122.632105,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/mZ77LGzsyL1TvIZtBHZjLg/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/pok-pok-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Pok Pok.com"
+                },
+                {
+                "restaurantName": "Frog & Snail",
+                "phoneNumber": "(503) 736-9381",
+                "category": "Creperies",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "3553 SE Hawthorne Blvd",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97214"
+                },
+                "lat": 45.512276,
+                "lng": -122.627568,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/6HwF4_252Hm2DzNk-hPFsw/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/frog-and-snail-portland-3?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Frog & Snail.com"
+                },
+                {
+                "restaurantName": "Wajan",
+                "phoneNumber": "(503) 206-5916",
+                "category": "Indonesian",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "4611 E Burnside St",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97215"
+                },
+                "lat": 45.52323,
+                "lng": -122.61529,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/8oEAPkX1RKzck3DRxd2H-A/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/wajan-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Wajan.com"
+                },
+                {
+                "restaurantName": "Cibo",
+                "phoneNumber": "(503) 719-5377",
+                "category": "Italian",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "3539 SE Division St",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97202"
+                },
+                "lat": 45.504891,
+                "lng": -122.627769,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/6DfO69KnEnSuvapdE-uR_Q/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/cibo-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Cibo.com"
+                },
+                {
+                "restaurantName": "Por Que No? Taqueria",
+                "phoneNumber": "(503) 954-3138",
+                "category": "Mexican",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "4635 SE Hawthorne Blvd",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97215"
+                },
+                "lat": 45.51226,
+                "lng": -122.61434,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/dpS5mHEu4zOClFs0h3bFTQ/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/por-que-no-taqueria-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Por Que No? Taqueria.com"
+                },
+                {
+                "restaurantName": "Farmhouse Kitchen Thai Cuisine",
+                "phoneNumber": "(503) 432-8115",
+                "category": "Thai",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "3354 SE Hawthorne Blvd",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97214"
+                },
+                "lat": 45.5118627,
+                "lng": -122.62983453,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/cPMwQ7bJYy5Mu0UbBgDd7w/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/farmhouse-kitchen-thai-cuisine-portland-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Farmhouse Kitchen Thai Cuisine.com"
+                },
+                {
+                "restaurantName": "Jurassic",
+                "phoneNumber": "(971) 865-5996",
+                "category": "American (New)",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "6036 SE Division St",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97206"
+                },
+                "lat": 45.50521,
+                "lng": -122.60093,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/8P3yZnh52RBMQKhp9MO4Zw/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/jurassic-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Jurassic.com"
+                },
+                {
+                "restaurantName": "Hoda's Middle-Eastern Cuisine",
+                "phoneNumber": "(503) 236-8325",
+                "category": "Lebanese",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "3401 SE Belmont St",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97214"
+                },
+                "lat": 45.51658,
+                "lng": -122.62927,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/p0kjnKNrAdRdgL9QmItzcA/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/hodas-middle-eastern-cuisine-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Hoda's Middle-Eastern Cuisine.com"
+                },
+                {
+                "restaurantName": "Casa Italia On Division",
+                "phoneNumber": "(971) 279-5684",
+                "category": "Italian",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "3035 SE Division St",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97202"
+                },
+                "lat": 45.505024,
+                "lng": -122.633946,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/0hhBV_JSI6DJh4c2U89PrA/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/casa-italia-on-division-portland-5?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Casa Italia On Division.com"
+                },
+                {
+                "restaurantName": "Noah Halal - Gyros & Shwarma",
+                "phoneNumber": "(503) 619-5756",
+                "category": "Food Trucks",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "3582 SE Powell Blvd",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97202"
+                },
+                "lat": 45.4967177608706,
+                "lng": -122.626782883685,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/P17RHZHlcg3I9hXox_xT0Q/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/noah-halal-gyros-and-shwarma-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Noah Halal - Gyros & Shwarma.com"
+                },
+                {
+                "restaurantName": "Next Level Burger",
+                "phoneNumber": "(503) 719-7058",
+                "category": "Burgers",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "4121 SE Hawthorne Blvd",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97214"
+                },
+                "lat": 45.5123678,
+                "lng": -122.6196438,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/0-ZzLVKMlFVhcu6Ob8LWhQ/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/next-level-burger-portland-8?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Next Level Burger.com"
+                },
+                {
+                "restaurantName": "Malka",
+                "phoneNumber": "(503) 899-4245",
+                "category": "American (New)",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "4546 SE Division St",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97206"
+                },
+                "lat": 45.505146,
+                "lng": -122.615143,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/cbijZQlGwRUbHh8qOsM1Qg/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/malka-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Malka.com"
+                },
+                {
+                "restaurantName": "Hello India",
+                "phoneNumber": "(503) 232-7860",
+                "category": "Indian",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "3500 SE Hawthorne Blvd",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97214"
+                },
+                "lat": 45.51186,
+                "lng": -122.62837,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/b_bKCBuP061U-LFzvrR_Qw/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/hello-india-portland-4?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Hello India.com"
+                },
+                {
+                "restaurantName": "Bamboo House",
+                "phoneNumber": "(503) 238-6232",
+                "category": "Vietnamese",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "4005 SE Hawthorne Blvd",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97214"
+                },
+                "lat": 45.5123,
+                "lng": -122.62126,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/M1GkN2aHf4bmbbDywFmJuw/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/bamboo-house-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Bamboo House.com"
+                },
+                {
+                "restaurantName": "Bollywood Theater",
+                "phoneNumber": "(503) 477-6699",
+                "category": "Indian",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "3010 SE Division St",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97202"
+                },
+                "lat": 45.5047903,
+                "lng": -122.6345348,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/359Y3-0DgXF1P1jEax0Wbg/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/bollywood-theater-portland-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Bollywood Theater.com"
+                },
+                {
+                "restaurantName": "Khao Moo Dang",
+                "phoneNumber": "(503) 206-6838",
+                "category": "Thai",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "3145 SE Hawthorne Blvd",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97214"
+                },
+                "lat": 45.512252,
+                "lng": -122.6328667,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/K4PzpEua8ReGKqdLLjsAFg/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/khao-moo-dang-portland-3?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Khao Moo Dang.com"
+                },
+                {
+                "restaurantName": "New Thai Blues",
+                "phoneNumber": "(503) 236-4770",
+                "category": "Thai",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "4147 SE Division St",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97202"
+                },
+                "lat": 45.505034,
+                "lng": -122.619411,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/ivCFxTOUD1vMF6txp6aVXw/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/new-thai-blues-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@New Thai Blues.com"
+                },
+                {
+                "restaurantName": "Taqueria La Princesita",
+                "phoneNumber": "(503) 309-5652",
+                "category": "Food Stands",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "935 SE Cesar Estrada Chavez Blvd",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97214"
+                },
+                "lat": 45.5157795561945,
+                "lng": -122.623282677659,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/Y2Okc0RZbhtMSR4rUBY9eQ/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/taqueria-la-princesita-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Taqueria La Princesita.com"
+                },
+                {
+                "restaurantName": "Sivalai Thai Restaurant",
+                "phoneNumber": "(503) 230-2875",
+                "category": "Thai",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "4806 SE Stark St",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97215"
+                },
+                "lat": 45.5190544128418,
+                "lng": -122.613243103027,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/ePeq633BPIcRw-erh9U7PA/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/sivalai-thai-restaurant-portland-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Sivalai Thai Restaurant.com"
+                },
+                {
+                "restaurantName": "Yataimura Maru",
+                "phoneNumber": "(503) 841-5527",
+                "category": "Sushi Bars",
+                "quadrant": "SE",
+                "address": {
+                "streetAddress": "3810 SE Division St",
+                "city": "Portland",
+                "state": "OR",
+                "zipcode": "97202"
+                },
+                "lat": 45.504583,
+                "lng": -122.6241433,
+                "description": "So yummy!",
+                "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/7a9QEYZaqE1UIS30ISkOpQ/o.jpg",
+                "websiteUrl": "https://www.yelp.com/biz/yataimura-maru-portland-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
+                "email": "info@Yataimura Maru.com"
+                }
   ]
