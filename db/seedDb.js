@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const connect = require('../lib/utils/connect');
-const seedDatabase = require('../db/seed');
+const seedDatabase = require('./seed');
 const mongoose = require('mongoose');
 
 connect();
