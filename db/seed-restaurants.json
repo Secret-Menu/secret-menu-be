@@ -126,42 +126,6 @@
     "email": "info@SPITZ.com"
     },
     {
-    "restaurantName": "Skyline Tavern Project",
-    "phoneNumber": "(503) 286-4788",
-    "category": "Beer Gardens",
-    "quadrant": "N",
-    "address": {
-    "streetAddress": "8031 NW Skyline Blvd",
-    "city": "Portland",
-    "state": "OR",
-    "zipcode": "97229"
-    },
-    "lat": 45.57952,
-    "lng": -122.79755,
-    "description": "So yummy!",
-    "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/u9_8vgAuCZk4BpKrnkfqxg/o.jpg",
-    "websiteUrl": "https://www.yelp.com/biz/skyline-tavern-project-portland-3?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-    "email": "info@Skyline Tavern Project.com"
-    },
-    {
-    "restaurantName": "de Fuego",
-    "phoneNumber": "(503) 652-1515",
-    "category": "Latin American",
-    "quadrant": "SE",
-    "address": {
-    "streetAddress": "12566 SE 93rd Ave",
-    "city": "Clackamas",
-    "state": "OR",
-    "zipcode": "97015"
-    },
-    "lat": 45.430992,
-    "lng": -122.567432,
-    "description": "So yummy!",
-    "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/KSMlueGegjf7Indtcibn3g/o.jpg",
-    "websiteUrl": "https://www.yelp.com/biz/de-fuego-clackamas?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-    "email": "info@de Fuego.com"
-    },
-    {
     "restaurantName": "Interurban",
     "phoneNumber": "(503) 284-6669",
     "category": "Bars",
@@ -250,24 +214,6 @@
     "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/T8DOSj8OY-UTG68_Z6LLXA/o.jpg",
     "websiteUrl": "https://www.yelp.com/biz/casa-zoraya-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
     "email": "info@Casa Zoraya.com"
-    },
-    {
-    "restaurantName": "Kizuki Ramen & Izakaya",
-    "phoneNumber": "(971) 266-3188",
-    "category": "Ramen",
-    "quadrant": "NW",
-    "address": {
-    "streetAddress": "11830 NW Cedar Falls Dr",
-    "city": "Portland",
-    "state": "OR",
-    "zipcode": "97229"
-    },
-    "lat": 45.5217636,
-    "lng": -122.8021536,
-    "description": "So yummy!",
-    "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/PmMdsQc70Tgiw6UniYTR5g/o.jpg",
-    "websiteUrl": "https://www.yelp.com/biz/kizuki-ramen-and-izakaya-portland-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-    "email": "info@Kizuki Ramen & Izakaya.com"
     },
     {
     "restaurantName": "Backyard Social",
@@ -1908,42 +1854,6 @@
             "email": "info@Ling Garden Chinese Restaurant.com"
             },
             {
-            "restaurantName": "de Fuego",
-            "phoneNumber": "(503) 652-1515",
-            "category": "Latin American",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "12566 SE 93rd Ave",
-            "city": "Clackamas",
-            "state": "OR",
-            "zipcode": "97015"
-            },
-            "lat": 45.430992,
-            "lng": -122.567432,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/KSMlueGegjf7Indtcibn3g/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/de-fuego-clackamas?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@de Fuego.com"
-            },
-            {
-            "restaurantName": "Mediterranean Exploration Company",
-            "phoneNumber": "(503) 222-0906",
-            "category": "Mediterranean",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "333 NW 13th Ave",
-            "city": "Portland",
-            "state": "OR",
-            "zipcode": "97209"
-            },
-            "lat": 45.5255436459797,
-            "lng": -122.684474076721,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/BDWvfxdi5uO19G9_c1T82A/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/mediterranean-exploration-company-portland-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@Mediterranean Exploration Company.com"
-            },
-            {
             "restaurantName": "Chimaek Town",
             "phoneNumber": "(503) 242-6404",
             "category": "Korean",
@@ -1980,42 +1890,6 @@
             "email": "info@Please Louise.com"
             },
             {
-            "restaurantName": "Kizuki Ramen & Izakaya",
-            "phoneNumber": "(971) 266-3188",
-            "category": "Ramen",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "11830 NW Cedar Falls Dr",
-            "city": "Portland",
-            "state": "OR",
-            "zipcode": "97229"
-            },
-            "lat": 45.5217636,
-            "lng": -122.8021536,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/PmMdsQc70Tgiw6UniYTR5g/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/kizuki-ramen-and-izakaya-portland-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@Kizuki Ramen & Izakaya.com"
-            },
-            {
-            "restaurantName": "Skyline Tavern Project",
-            "phoneNumber": "(503) 286-4788",
-            "category": "Beer Gardens",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "8031 NW Skyline Blvd",
-            "city": "Portland",
-            "state": "OR",
-            "zipcode": "97229"
-            },
-            "lat": 45.57952,
-            "lng": -122.79755,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/u9_8vgAuCZk4BpKrnkfqxg/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/skyline-tavern-project-portland-3?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@Skyline Tavern Project.com"
-            },
-            {
             "restaurantName": "Thai Bloom!",
             "phoneNumber": "(503) 243-7557",
             "category": "Thai",
@@ -2032,24 +1906,6 @@
             "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/DJle6xqGvFz89iT71xDpXg/o.jpg",
             "websiteUrl": "https://www.yelp.com/biz/thai-bloom-portland-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
             "email": "info@Thai Bloom!.com"
-            },
-            {
-            "restaurantName": "Taiwan Bistro",
-            "phoneNumber": "(971) 229-1927",
-            "category": "Taiwanese",
-            "quadrant": "NW",
-            "address": {
-            "streetAddress": "11136 SW Capitol Hwy",
-            "city": "Portland",
-            "state": "OR",
-            "zipcode": "97219"
-            },
-            "lat": 45.44501,
-            "lng": -122.72633,
-            "description": "So yummy!",
-            "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/i95vPWbk_XlO1VzK1cND9g/o.jpg",
-            "websiteUrl": "https://www.yelp.com/biz/taiwan-bistro-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-            "email": "info@Taiwan Bistro.com"
             },
             {
             "restaurantName": "Pepe le Moko",
