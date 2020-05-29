@@ -229,11 +229,11 @@ module.exports = async() => {
       end: '2020-06-11T12:00:00.500Z',
       status: 'open',
       offering1Name: 'Chainsaw\'s Apple Crisp Kit',
-      offering1Votes: 420,
+      offering1Votes: 419,
       offering1ImageUrl: 'https://tastesbetterfromscratch.com/wp-content/uploads/2017/09/Apple-Crisp.jpg',
       offering1Description: 'You will not believe a cat made this.',
       offering2Name: 'Spot\'s Stellar Apple Pancake Kit',
-      offering2Votes: 421,
+      offering2Votes: 447,
       offering2ImageUrl: 'https://lilluna.com/wp-content/uploads/2017/09/apple-pancakes-resize-2.jpg',
       offering2Description: 'Ever had apple pancakes before?'
     },

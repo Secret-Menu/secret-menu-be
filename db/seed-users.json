@@ -70,6 +70,27 @@
     "password": "admin"
   },
   {
+    "firstName": "Janelle",
+    "lastName": "Mellor",
+    "email": "janelle@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Danielle",
+    "lastName": "Schumaker",
+    "email": "dannie@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Surelis",
+    "lastName": "Segarra",
+    "email": "suri@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
     "firstName": "Hannah",
     "lastName": "Riley",
     "email": "test3@secretmenu.com",
