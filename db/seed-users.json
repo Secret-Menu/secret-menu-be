@@ -14,6 +14,27 @@
     "password": "admin"
   },
   {
+    "firstName": "Evan",
+    "lastName": "Andrewson",
+    "email": "evan@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Abbey",
+    "lastName": "Masters",
+    "email": "abbey@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Kamran",
+    "lastName": "Ali",
+    "email": "kam@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
     "firstName": "Hannah",
     "lastName": "Riley",
     "email": "test3@secretmenu.com",

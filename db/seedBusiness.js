@@ -4,6 +4,7 @@ const User = require('../lib/models/User/User');
 const Restaurant = require('../lib/models/Restaurant/Restaurant');
 const Offering = require('../lib/models/Offering/Offering');
 const Poll = require('../lib/models/Poll/Poll');
+const Order = require('../lib/models/Order/Order');
 
 module.exports = async() => {
 
@@ -44,7 +45,7 @@ module.exports = async() => {
       servingSize: 2,
       price: 4000,
       dietaryRestriction: 'None',
-      pickUpDate: chance.date({ year: 2020 })
+      pickUpDate: '2020-07-22T12:00:00.500Z'
     },
     {
       dishName: 'Fettuccine Pasta & Mushrooms Kit',
@@ -54,7 +55,7 @@ module.exports = async() => {
       servingSize: 2,
       price: 2300,
       dietaryRestriction: 'Dairy Free',
-      pickUpDate: chance.date({ year: 2020 })
+      pickUpDate: '2020-09-10T12:00:00.500Z'
     },
     {
       dishName: 'One-Pan Vegetable Udon Kit',
@@ -64,7 +65,7 @@ module.exports = async() => {
       servingSize: 1,
       price: 2000,
       dietaryRestriction: 'Vegan',
-      pickUpDate: chance.date({ year: 2020 })
+      pickUpDate: '2020-06-22T12:00:00.500Z'
     },
     {
       dishName: 'Roasted Cauliflower Salad Kit',
@@ -74,7 +75,7 @@ module.exports = async() => {
       servingSize: 4,
       price: 3500,
       dietaryRestriction: 'Gluten Free',
-      pickUpDate: chance.date({ year: 2020 })
+      pickUpDate: '2020-08-03T12:00:00.500Z'
     },
     {
       dishName: 'Hot Honey Butter-Glazed Chicken Kit',
@@ -84,7 +85,7 @@ module.exports = async() => {
       servingSize: 2,
       price: 3490,
       dietaryRestriction: 'None',
-      pickUpDate: chance.date({ year: 2020 })
+      pickUpDate: '2020-07-22T12:00:00.500Z'
     },
     {
       dishName: 'BBQ Turkey Burgers Kit',
@@ -94,7 +95,7 @@ module.exports = async() => {
       servingSize: 2,
       price: 2500,
       dietaryRestriction: 'None',
-      pickUpDate: chance.date({ year: 2020 })
+      pickUpDate: '2020-03-11T12:00:00.500Z'
     },
     {
       dishName: 'Pine Nut and Goat Cheese-Crusted Chicken Kit',
@@ -104,7 +105,7 @@ module.exports = async() => {
       servingSize: 2,
       price: 3200,
       dietaryRestriction: 'None',
-      pickUpDate: chance.date({ year: 2020 })
+      pickUpDate: '2020-06-14T12:00:00.500Z'
     },
     {
       dishName: 'Gemelli and Ricotta Meatballs Kit',
@@ -114,17 +115,17 @@ module.exports = async() => {
       servingSize: 4,
       price: 2000,
       dietaryRestriction: 'None',
-      pickUpDate: chance.date({ year: 2020 })
+      pickUpDate: '2020-10-11T12:00:00.500Z'
     },
     {
       dishName: 'Salmon and Quinoa Bowl Kit',
       imageUrl: 'https://cdn.sunbasket.com/16ec0454-a767-4dda-8df0-fcd987b1d263.jpg',
       description: 'Clean eating is easy when good-for-you ingredients are arranged in such an appealing way. These stunning bowls also come together quickly.',
-      numRemaining: 9,
+      numRemaining: 0,
       servingSize: 3,
       price: 4500,
       dietaryRestriction: 'None',
-      pickUpDate: chance.date({ year: 2020 })
+      pickUpDate: '2020-04-13T12:00:00.500Z'
     },
     {
       dishName: 'Beef Chili Kit',
@@ -134,7 +135,7 @@ module.exports = async() => {
       servingSize: 4,
       price: 3000,
       dietaryRestriction: 'None',
-      pickUpDate: chance.date({ year: 2020 })
+      pickUpDate: '2020-06-15T12:00:00.500Z'
     },
     {
       dishName: 'Birthday Cake Cocktail Kit',
@@ -144,7 +145,7 @@ module.exports = async() => {
       servingSize: 12,
       price: 1000,
       dietaryRestriction: 'None',
-      pickUpDate: chance.date({ year: 2020 })
+      pickUpDate: '2020-07-11T12:00:00.500Z'
     },
     {
       dishName: 'Sea Monster Mai Tai Kit',
@@ -154,11 +155,11 @@ module.exports = async() => {
       servingSize: 4,
       price: 8000,
       dietaryRestriction: 'None',
-      pickUpDate: chance.date({ year: 2020 })
+      pickUpDate: '2020-03-11T12:00:00.500Z'
     },
   ];
 
-  await Offering.create(businessDishes.map(offering => ({
+  const offerings = await Offering.create(businessDishes.map(offering => ({
     dishName: offering.dishName,
     imageUrl: offering.imageUrl,
     description: offering.description,
@@ -175,17 +176,17 @@ module.exports = async() => {
       name: 'Red Dawn',
       end: '2020-07-23T12:00:00.500Z',
       status: 'open',
-      offering1Name: 'Dorje`s Moscow Mule Kit',
+      offering1Name: 'Dorje\'s Moscow Mule Kit',
       offering1Votes: 73,
       offering1ImageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Moscow_Mule_at_Rye%2C_San_Francisco.jpg/1920px-Moscow_Mule_at_Rye%2C_San_Francisco.jpg',
       offering1Description: 'From the motherland.',
-      offering2Name: 'Chelsea`s Manhattan Kit',
+      offering2Name: 'Chelsea\'s Manhattan Kit',
       offering2Votes: 42,
       offering2ImageUrl: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/manhattan-cocktail-garnished-with-brandied-cherry-royalty-free-image-1581689329.jpg?crop=0.670xw:1.00xh;0.120xw,0&resize=768:*',
       offering2Description: 'An American staple.'
     },
     {
-      name: 'What\'s the Color of Your Energy?',
+      name: 'What is the Color of Your Energy?',
       end: '2020-06-21T12:00:00.500Z',
       status: 'open',
       offering1Name: 'Mikey\'s All-Mixed-Up Salad Kit',
@@ -214,28 +215,41 @@ module.exports = async() => {
       name: 'We All Scream',
       end: '2020-09-25T12:00:00.500Z',
       status: 'open',
-      offering1Name: 'Anastasia`s Orange Sherbert Kit',
+      offering1Name: 'Anastasia\'s Orange Sherbert Kit',
       offering1Votes: 0,
       offering1ImageUrl: 'https://www.thespruceeats.com/thmb/Yv-nSj-L_5TcijdCyKPznNYRnRU=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-175656681-5a9b2b4c0e23d90037575303.jpg',
       offering1Description: 'The best ice cream you\'ll ever taste!',
-      offering2Name: 'Jose`s Rocky Road Kit',
+      offering2Name: 'Jose\'s Rocky Road Kit',
       offering2Votes: 0,
       offering2ImageUrl: 'https://barefeetinthekitchen.com/wp-content/uploads/2015/08/rocky-road-ice-cream-9.jpg',
       offering2Description: 'No, this is the best ice cream you\'ll ever taste!'
     },
     {
-      name: 'We All Scream',
-      end: '2020-09-25T12:00:00.500Z',
+      name: 'A Tough Decision',
+      end: '2020-06-11T12:00:00.500Z',
       status: 'open',
-      offering1Name: 'Anastasia`s Orange Sherbert Kit',
-      offering1Votes: 0,
-      offering1ImageUrl: 'https://www.lecremedelacrumb.com/wp-content/uploads/2019/01/best-simple-green-salad-3.jpg',
-      offering1Description: 'The best ice cream you\'ll ever taste!',
-      offering2Name: 'Jose`s Rocky Road Kit',
-      offering2Votes: 0,
-      offering2ImageUrl: 'https://s23209.pcdn.co/wp-content/uploads/2020/03/Best-Ever-Beef-StewIMG_1367.jpg',
-      offering2Description: 'No, this is the best ice cream you\'ll ever taste!'
-    }
+      offering1Name: 'Chainsaw\'s Apple Crisp Kit',
+      offering1Votes: 420,
+      offering1ImageUrl: 'https://tastesbetterfromscratch.com/wp-content/uploads/2017/09/Apple-Crisp.jpg',
+      offering1Description: 'You will not believe a cat made this.',
+      offering2Name: 'Spot\'s Stellar Apple Pancake Kit',
+      offering2Votes: 421,
+      offering2ImageUrl: 'https://lilluna.com/wp-content/uploads/2017/09/apple-pancakes-resize-2.jpg',
+      offering2Description: 'Ever had apple pancakes before?'
+    },
+    {
+      name: 'JavaScript BBQ',
+      end: '2020-03-11T12:00:00.500Z',
+      status: 'closed',
+      offering1Name: 'Nathan\'s Brilliant Oyster Po Boy',
+      offering1Votes: 665,
+      offering1ImageUrl: 'https://www.seriouseats.com/2019/02/20190221-oyster-poboys-vicky-wasik-22.jpg',
+      offering1Description: 'Nather sure knows how to make a sandwich.',
+      offering2Name: 'James\'s Jamming Crawfish Kit',
+      offering2Votes: 665,
+      offering2ImageUrl: 'https://www.louisianacookin.com/wp-content/uploads/2018/04/crawfishopener.jpg',
+      offering2Description: 'Craving seafood?'
+    },
   ];
 
   await Poll.create(businessPolls.map(poll => ({
@@ -251,5 +265,19 @@ module.exports = async() => {
     offering2Votes: poll.offering2Votes,
     offering2ImageUrl: poll.offering2ImageUrl,
     offering2Description: poll.offering2Description
+  })));
+
+  const users = await User.find({ role: 'User' });
+  const orderStatus = ['Open', 'Closed'];
+  await Order.create([...Array(50)].map(() => ({
+    orderNumber: chance.integer(),
+    user: chance.pickone(users)._id,
+    restaurant: restaurant._id,
+    offering: [{
+      offering: chance.pickone(offerings)._id, 
+      quantity: chance.integer({ min: 0, max: 5 }),
+      orderStatus: chance.pickone(orderStatus) 
+    }],
+    orderTotal: chance.integer()
   })));
 };
