@@ -278,6 +278,6 @@ module.exports = async() => {
       quantity: chance.integer({ min: 0, max: 5 }),
       orderStatus: chance.pickone(orderStatus) 
     }],
-    orderTotal: chance.integer()
+    orderTotal: chance.integer({ min: 102, max: 20000 })
   })));
 };
