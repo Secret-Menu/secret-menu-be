@@ -28,9 +28,65 @@
     "password": "admin"
   },
   {
+    "firstName": "Fiona",
+    "lastName": "Ochs",
+    "email": "fiona@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Scott",
+    "lastName": "Harlan",
+    "email": "scott@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Shannon",
+    "lastName": "Rasimas",
+    "email": "shannon@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Ryan",
+    "lastName": "Mehta",
+    "email": "ryan@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Marty",
+    "lastName": "Nelson",
+    "email": "marty@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
     "firstName": "Kamran",
     "lastName": "Ali",
     "email": "kam@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Janelle",
+    "lastName": "Mellor",
+    "email": "janelle@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Danielle",
+    "lastName": "Schumaker",
+    "email": "dannie@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Surelis",
+    "lastName": "Segarra",
+    "email": "suri@secretmenu.com",
     "role": "User",
     "password": "admin"
   },

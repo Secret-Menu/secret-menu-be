@@ -219,7 +219,7 @@ module.exports = async() => {
       offering1Votes: 0,
       offering1ImageUrl: 'https://www.thespruceeats.com/thmb/Yv-nSj-L_5TcijdCyKPznNYRnRU=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-175656681-5a9b2b4c0e23d90037575303.jpg',
       offering1Description: 'The best ice cream you\'ll ever taste!',
-      offering2Name: 'Jose\'s Rocky Road Kit',
+      offering2Name: 'José\'s Rocky Road Kit',
       offering2Votes: 0,
       offering2ImageUrl: 'https://barefeetinthekitchen.com/wp-content/uploads/2015/08/rocky-road-ice-cream-9.jpg',
       offering2Description: 'No, this is the best ice cream you\'ll ever taste!'
@@ -229,11 +229,11 @@ module.exports = async() => {
       end: '2020-06-11T12:00:00.500Z',
       status: 'open',
       offering1Name: 'Chainsaw\'s Apple Crisp Kit',
-      offering1Votes: 420,
+      offering1Votes: 419,
       offering1ImageUrl: 'https://tastesbetterfromscratch.com/wp-content/uploads/2017/09/Apple-Crisp.jpg',
       offering1Description: 'You will not believe a cat made this.',
       offering2Name: 'Spot\'s Stellar Apple Pancake Kit',
-      offering2Votes: 421,
+      offering2Votes: 447,
       offering2ImageUrl: 'https://lilluna.com/wp-content/uploads/2017/09/apple-pancakes-resize-2.jpg',
       offering2Description: 'Ever had apple pancakes before?'
     },
@@ -241,7 +241,7 @@ module.exports = async() => {
       name: 'JavaScript BBQ',
       end: '2020-03-11T12:00:00.500Z',
       status: 'closed',
-      offering1Name: 'Nathan\'s Brilliant Oyster Po Boy',
+      offering1Name: 'Nathan\'s Brilliant Oyster Po Boy Kit',
       offering1Votes: 665,
       offering1ImageUrl: 'https://www.seriouseats.com/2019/02/20190221-oyster-poboys-vicky-wasik-22.jpg',
       offering1Description: 'Nather sure knows how to make a sandwich.',
@@ -270,7 +270,7 @@ module.exports = async() => {
   const users = await User.find({ role: 'User' });
   const orderStatus = ['Open', 'Closed'];
   await Order.create([...Array(50)].map(() => ({
-    orderNumber: chance.integer(),
+    orderNumber: chance.integer({ min: 1000000000000, max: 9999999999999 }),
     user: chance.pickone(users)._id,
     restaurant: restaurant._id,
     offering: [{

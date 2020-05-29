@@ -61,7 +61,7 @@ module.exports = async() => {
 
   const orderStatus = ['Open', 'Closed'];
   await Order.create([...Array(50)].map(() => ({
-    orderNumber: chance.integer(),
+    orderNumber: chance.integer({ min: 1000000000000, max: 9999999999999 }),
     user: chance.pickone(users)._id,
     restaurant: chance.pickone(restaurants)._id,
     offering: [{
@@ -69,7 +69,7 @@ module.exports = async() => {
       quantity: chance.integer({ min: 0, max: 50 }),
       orderStatus: chance.pickone(orderStatus) 
     }],
-    orderTotal: chance.integer()
+    orderTotal: chance.integer({ min: 102, max: 20000 })
   })));
 
   await Poll.create(poll_seed.map(poll => ({
