@@ -28,6 +28,41 @@
     "password": "admin"
   },
   {
+    "firstName": "Fiona",
+    "lastName": "Ochs",
+    "email": "fiona@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Scott",
+    "lastName": "Harlan",
+    "email": "fiona@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Shannon",
+    "lastName": "Rasimas",
+    "email": "shannon@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Ryan",
+    "lastName": "Mehta",
+    "email": "ryan@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
+    "firstName": "Marty",
+    "lastName": "Nelson",
+    "email": "marty@secretmenu.com",
+    "role": "User",
+    "password": "admin"
+  },
+  {
     "firstName": "Kamran",
     "lastName": "Ali",
     "email": "kam@secretmenu.com",
