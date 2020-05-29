@@ -270,7 +270,7 @@ module.exports = async() => {
   const users = await User.find({ role: 'User' });
   const orderStatus = ['Open', 'Closed'];
   await Order.create([...Array(50)].map(() => ({
-    orderNumber: chance.integer(),
+    orderNumber: chance.integer({ min: 1000000000000, max: 9999999999999 }),
     user: chance.pickone(users)._id,
     restaurant: restaurant._id,
     offering: [{
