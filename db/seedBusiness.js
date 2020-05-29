@@ -244,7 +244,7 @@ module.exports = async() => {
       offering1Name: 'Nathan\'s Brilliant Oyster Po Boy Kit',
       offering1Votes: 665,
       offering1ImageUrl: 'https://www.seriouseats.com/2019/02/20190221-oyster-poboys-vicky-wasik-22.jpg',
-      offering1Description: 'Nather sure knows how to make a sandwich.',
+      offering1Description: 'Nathen sure knows how to make a sandwich.',
       offering2Name: 'James\'s Jamming Crawfish Kit',
       offering2Votes: 665,
       offering2ImageUrl: 'https://www.louisianacookin.com/wp-content/uploads/2018/04/crawfishopener.jpg',
