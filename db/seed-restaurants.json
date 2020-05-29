@@ -323,24 +323,6 @@
       "websiteUrl": "https://www.yelp.com/biz/zaap-thai-portland-3?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
       "email": "info@Zaap Thai.com"
       },
-  {
-    "restaurantName": "Silsila the Flaming Tandoor",
-    "phoneNumber": "(971) 373-8641",
-    "category": "Indian",
-    "quadrant": "N",
-    "address": {
-    "streetAddress": "819 N Killingsworth St",
-    "city": "Portland",
-    "state": "OR",
-    "zipcode": "97217"
-    },
-    "lat": 45.562826,
-    "lng": -122.675398,
-    "description": "So yummy!",
-    "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/WK7LzgwFTwPjY6aeALiuYg/o.jpg",
-    "websiteUrl": "https://www.yelp.com/biz/silsila-the-flaming-tandoor-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-    "email": "info@Silsila the Flaming Tandoor.com"
-    },
     {
       "restaurantName": "Sabiang Thai",
       "phoneNumber": "(503) 282-0456",
@@ -683,42 +665,6 @@
       "websiteUrl": "https://www.yelp.com/biz/estes-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
       "email": "info@Estes.com"
       },
-      {
-        "restaurantName": "Jurassic",
-        "phoneNumber": "(971) 865-5996",
-        "category": "American (New)",
-        "quadrant": "SE",
-        "address": {
-        "streetAddress": "6036 SE Division St",
-        "city": "Portland",
-        "state": "OR",
-        "zipcode": "97206"
-        },
-        "lat": 45.50521,
-        "lng": -122.60093,
-        "description": "So yummy!",
-        "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/8P3yZnh52RBMQKhp9MO4Zw/o.jpg",
-        "websiteUrl": "https://www.yelp.com/biz/jurassic-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-        "email": "info@Jurassic.com"
-        },
-        {
-        "restaurantName": "Wajan",
-        "phoneNumber": "(503) 206-5916",
-        "category": "Indonesian",
-        "quadrant": "SE",
-        "address": {
-        "streetAddress": "4611 E Burnside St",
-        "city": "Portland",
-        "state": "OR",
-        "zipcode": "97215"
-        },
-        "lat": 45.52323,
-        "lng": -122.61529,
-        "description": "So yummy!",
-        "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/8oEAPkX1RKzck3DRxd2H-A/o.jpg",
-        "websiteUrl": "https://www.yelp.com/biz/wajan-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-        "email": "info@Wajan.com"
-        },
         {
         "restaurantName": "Frog & Snail",
         "phoneNumber": "(503) 736-9381",
@@ -1835,24 +1781,6 @@
               "websiteUrl": "https://www.yelp.com/biz/pepe-le-moko-portland-2?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
               "email": "info@Pepe le Moko.com"
               },
-              {
-                "restaurantName": "The Old Spaghetti Factory",
-                "phoneNumber": "(503) 222-5375",
-                "category": "Italian",
-                "quadrant": "S",
-                "address": {
-                "streetAddress": "715 S Bancroft St",
-                "city": "Portland",
-                "state": "OR",
-                "zipcode": "97239"
-                },
-                "lat": 45.493338,
-                "lng": -122.669385,
-                "description": "So yummy!",
-                "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/3i7FbD6gVaGwXp3haTryBA/o.jpg",
-                "websiteUrl": "https://www.yelp.com/biz/the-old-spaghetti-factory-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-                "email": "info@The Old Spaghetti Factory.com"
-                },
                 {
                 "restaurantName": "Thai Ginger",
                 "phoneNumber": "(503) 283-9731",
@@ -1906,24 +1834,6 @@
                 "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/o0gr2n3Ql2p0unzk0oarPw/o.jpg",
                 "websiteUrl": "https://www.yelp.com/biz/swift-and-union-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
                 "email": "info@Swift and Union.com"
-                },
-                {
-                "restaurantName": "Silsila the Flaming Tandoor",
-                "phoneNumber": "(971) 373-8641",
-                "category": "Indian",
-                "quadrant": "N",
-                "address": {
-                "streetAddress": "819 N Killingsworth St",
-                "city": "Portland",
-                "state": "OR",
-                "zipcode": "97217"
-                },
-                "lat": 45.562826,
-                "lng": -122.675398,
-                "description": "So yummy!",
-                "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/WK7LzgwFTwPjY6aeALiuYg/o.jpg",
-                "websiteUrl": "https://www.yelp.com/biz/silsila-the-flaming-tandoor-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-                "email": "info@Silsila the Flaming Tandoor.com"
                 },
                 {
                 "restaurantName": "Chef Zhao",
@@ -2142,24 +2052,6 @@
                   "email": "info@Frog & Snail.com"
                   },
                   {
-                  "restaurantName": "Wajan",
-                  "phoneNumber": "(503) 206-5916",
-                  "category": "Indonesian",
-                  "quadrant": "SE",
-                  "address": {
-                  "streetAddress": "4611 E Burnside St",
-                  "city": "Portland",
-                  "state": "OR",
-                  "zipcode": "97215"
-                  },
-                  "lat": 45.52323,
-                  "lng": -122.61529,
-                  "description": "So yummy!",
-                  "imageUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/8oEAPkX1RKzck3DRxd2H-A/o.jpg",
-                  "websiteUrl": "https://www.yelp.com/biz/wajan-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-                  "email": "info@Wajan.com"
-                  },
-                  {
                   "restaurantName": "Cibo",
                   "phoneNumber": "(503) 719-5377",
                   "category": "Italian",
@@ -2302,24 +2194,6 @@
                   "imageUrl": "https://s3-media1.fl.yelpcdn.com/bphoto/0-ZzLVKMlFVhcu6Ob8LWhQ/o.jpg",
                   "websiteUrl": "https://www.yelp.com/biz/next-level-burger-portland-8?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
                   "email": "info@Next Level Burger.com"
-                  },
-                  {
-                  "restaurantName": "Malka",
-                  "phoneNumber": "(503) 899-4245",
-                  "category": "American (New)",
-                  "quadrant": "SE",
-                  "address": {
-                  "streetAddress": "4546 SE Division St",
-                  "city": "Portland",
-                  "state": "OR",
-                  "zipcode": "97206"
-                  },
-                  "lat": 45.505146,
-                  "lng": -122.615143,
-                  "description": "So yummy!",
-                  "imageUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/cbijZQlGwRUbHh8qOsM1Qg/o.jpg",
-                  "websiteUrl": "https://www.yelp.com/biz/malka-portland?adjust_creative=Q-ZSCR9WpezT8bNd78c9Mw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Q-ZSCR9WpezT8bNd78c9Mw",
-                  "email": "info@Malka.com"
                   },
                   {
                   "restaurantName": "Hello India",
